@@ -843,6 +843,13 @@
 		{
 			x: 4.5d
 			y: 17.0d
+			description: [
+				"The Manufactory Halo is an upgrade of the Assembly Halo: aside from doing all that the Assembly Halo can do, the Manufactory Halo will (when not held) automatically craft all possible saved recipes."
+				""
+				"Automatic compression of ores while mining is just one of many applications this upgrade has."
+				""
+				"There is one aspect to be aware of: If there is a saved recipe and you acquire missing ingredients for the recipe, then it will be crafted whether you want it or not. I only put this in my inventory when I expressly want to auto-craft otherwise I use the Assembly Halo."
+			]
 			dependencies: ["36EDEBAB81D05AC6"]
 			id: "0FD4CDCFF7C99324"
 			tasks: [{
