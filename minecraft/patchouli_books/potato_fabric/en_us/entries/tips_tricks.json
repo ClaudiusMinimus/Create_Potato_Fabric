@@ -1,0 +1,28 @@
+{
+    "name": "Tips & Tricks",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:getting_started",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In this section I will try to show some tips and tricks that may prove helpful."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Remove Enchantments",
+            "item": "minecraft:grindstone",
+            "text": "Use a Grindstone to pull enchantments off of books, tools, weapons, and armor."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Pick Up Items",
+            "text": "By shift right-click on an inventory you can pick it up and move it. Both hands must be empty for this to work."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Lookup Mods",
+            "text": "If you want to learn about a particular mod, then open the Mods menu page.$(li)From the main menu page, click on the  Mods icon. From within a world, open Game Menu page (default Esc key).$(li)Click on Mods.$(li)Search for the mod you are interested in.$(li)Click on the mod icon to show the details. You can find issue trackers, website links, and mod settings."
+        }
+    ]
+}

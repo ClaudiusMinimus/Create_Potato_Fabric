@@ -29,8 +29,6 @@ server/config/*
 server/logs/*
 server/mods/*
 
-minecraft/patchouli_books/*
-
 # Ignore these files
 minecraft/icon.png
 minecraft/keys.txt

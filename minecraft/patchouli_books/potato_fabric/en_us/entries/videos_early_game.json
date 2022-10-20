@@ -1,0 +1,26 @@
+{
+    "name": "Early Game Farms",
+    "icon": "minecraft:composter",
+    "category": "patchouli:videos",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Early game farms are one of the best ways to quickly gather resources. Here is a list of some of my favorites."
+        },{
+            "title": "Iron Farm",
+            "type": "patchouli:text",
+            "text": "It is possbible to have a good iron farm up and going really fast! Here is a link to a very easy and productive iron farm by ianxofour, titled: $(l:https://www.youtube.com/watch?v=-oYyJ6jfSPU)Iron Farm on Day 1 of Survival$(/l), though I never am able to do this on day one.$(br2)$(l:https://www.youtube.com/watch?v=i-dTFB8KETk)Testing Iron Farms in Minecraft$(/l) - Which One You Should Build?"
+        },
+        {
+            "title": "Village Breeder",
+            "type": "patchouli:text",
+            "text": "In this video, ImpulseSV show you how to build a very simple design that you can make early game that requires no redstone and will produce almost 300 iron per hour and generate 2 baby villagers each Minecraft day infinitely. $(li)$(l:https://www.youtube.com/watch?v=O6c_qSzL_us)Easy 2-in-1 Iron Farm and Infinite Villager Breeder$(/l) "
+        },
+        {
+            "title": "Sugarcane Farm",
+            "type": "patchouli:text",
+            "text": "Dusty Dude's $(l:https://www.youtube.com/watch?v=Mo6bcbPjyRA)Flying Machine Sugarcane Farm$(/l). This farm can really kick out a lot of sugarcane. I made one three chunks long and I had TONS of sugarcane! However, with the Create mod you may want to consider using it to make most of your farms."
+        }
+    ]
+}
