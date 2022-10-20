@@ -64,6 +64,6 @@ minecraft/defaultconfigs/*
 !minecraft/TrashSlotSaveState.json
 !minecraft/config/bcc-common.toml
 #!minecraft/config/craftpresence.properties
-# !minecraft/config/xaerominimap.txt
-# !minecraft/config/xaerominimap_entities.json
+!minecraft/config/xaerominimap.txt
+!minecraft/config/xaerominimap_entities.json
 !server/config/bcc-common.toml
