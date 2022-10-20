@@ -56,11 +56,9 @@ modlist.html
 !minecraft/config/ftbquests
 !server/config/ftbquests
 
-
 # Stop ignoring these files
-!minecraft/TrashSlotSaveState.json
-!minecraft/config/bcc-common.toml
+!minecraft/config/bcc.json
 #!minecraft/config/craftpresence.properties
 !minecraft/config/xaerominimap.txt
 !minecraft/config/xaerominimap_entities.json
-!server/config/bcc-common.toml
+!server/config/bcc.json
