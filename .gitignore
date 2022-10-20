@@ -49,11 +49,8 @@ minecraft/usercache.json
 instance.cfg
 mmc-pack.json
 modlist.html
-docs/*
-minecraft/defaultconfigs/*
 
 # Stop ignoring these folders
-
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/fancymenu/
 !minecraft/config/ftbquests
