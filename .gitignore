@@ -49,8 +49,11 @@ modlist.html
 
 # Stop ignoring these folders
 !minecraft/config/drippyloadingscreen/
+!minecraft/config/EssentialGUI/
 !minecraft/config/fancymenu/
-!minecraft/config/ftbquests
+!minecraft/config/ftbquests/
+!minecraft/config/more_gems/
+!minecraft/config/simple_backpack/
 !server/config/ftbquests
 
 # Stop ignoring these files
