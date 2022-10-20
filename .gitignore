@@ -54,8 +54,8 @@ minecraft/defaultconfigs/*
 
 # Stop ignoring these folgers
 
-# !minecraft/config/drippyloadingscreen/
-# !minecraft/config/fancymenu/
+!minecraft/config/drippyloadingscreen/
+!minecraft/config/fancymenu/
 # !minecraft/config/ftbquests
 # !server/config/ftbquests
 
