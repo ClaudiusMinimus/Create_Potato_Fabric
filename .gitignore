@@ -60,6 +60,6 @@ modlist.html
 # Stop ignoring these files
 !minecraft/config/bcc.json
 #!minecraft/config/craftpresence.properties
-!minecraft/config/xaerominimap.txt
-!minecraft/config/xaerominimap_entities.json
+# !minecraft/config/xaerominimap.txt
+# !minecraft/config/xaerominimap_entities.json
 !server/config/bcc.json
