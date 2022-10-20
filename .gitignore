@@ -54,6 +54,7 @@ modlist.html
 !minecraft/config/ftbquests/
 !minecraft/config/more_gems/
 !minecraft/config/simple_backpack/
+!minecraft/config/yosbr/
 !server/config/ftbquests
 
 # Stop ignoring these files
