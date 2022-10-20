@@ -1,0 +1,377 @@
+{
+	id: "0000000000000105"
+	group: ""
+	order_index: 6
+	filename: "storage"
+	title: "Storage"
+	icon: "minecraft:barrel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "797DA8F8F935D7AC"
+			tasks: [{
+				id: "140F8526F4532B59"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["797DA8F8F935D7AC"]
+			id: "4689BFF22315E724"
+			tasks: [{
+				id: "6BA6EDCFF1885FA3"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["4689BFF22315E724"]
+			id: "2660A472837E54BE"
+			tasks: [{
+				id: "347C27DE76DEACD4"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["2660A472837E54BE"]
+			id: "00B0CDC31037C246"
+			tasks: [{
+				id: "31722823CCD5E4EF"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["00B0CDC31037C246"]
+			id: "54309D5B7189163C"
+			tasks: [{
+				id: "2E7F23E0BC4C2792"
+				type: "item"
+				item: "toms_storage:ts.adv_wireless_terminal"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["4689BFF22315E724"]
+			id: "6EB9B4E0AF9DC643"
+			tasks: [{
+				id: "41D8672F7F12A79C"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			dependencies: ["6EB9B4E0AF9DC643"]
+			id: "7740C0ED2155F768"
+			tasks: [{
+				id: "52DB6C060601CA15"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -9.0d
+			dependencies: ["7740C0ED2155F768"]
+			id: "2AD835D0EA570CFF"
+			tasks: [{
+				id: "47357EE4D508C0C8"
+				type: "item"
+				item: "toms_storage:ts.inventory_hopper_basic"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "4240DD5A5E1AB2A4"
+			tasks: [{
+				id: "420ADBAAD58BB101"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "73CB4734EB4623E7"
+				type: "item"
+				item: "resourceful_tools:trash_can"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "0CDBD6F2432A0531"
+			tasks: [{
+				id: "0FF943134EE3EF12"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "013D046FD42B2B58"
+			tasks: [{
+				id: "6CB85E70B360F69A"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["013D046FD42B2B58"]
+			id: "081C796F1246C254"
+			tasks: [{
+				id: "466DD893F3B64288"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "288AF9B5D8CCADB7"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["081C796F1246C254"]
+			id: "2DC87CBCB90F4A33"
+			tasks: [{
+				id: "19C1211109AB2883"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["2DC87CBCB90F4A33"]
+			id: "6108DE62E1E561A9"
+			tasks: [{
+				id: "1E456D3CFCFD9DD0"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["6108DE62E1E561A9"]
+			id: "14C1B8171EF0CDC8"
+			tasks: [{
+				id: "55C7DADDBC65E8B2"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["14C1B8171EF0CDC8"]
+			id: "257FD3507B85F5A8"
+			tasks: [{
+				id: "5248C2BC17C97B8C"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["3F7BFE0CF6A7B85A"]
+			id: "270197FA7679E098"
+			tasks: [{
+				id: "51CDB5E9A5A1EADB"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			dependencies: ["257FD3507B85F5A8"]
+			id: "3F7BFE0CF6A7B85A"
+			tasks: [{
+				id: "07B5D88E56AFD604"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "433CE06D86617E52"
+			tasks: [{
+				id: "3538981175DAE29E"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "77E5A95C314B1822"
+			tasks: [{
+				id: "038909BA613B6AA4"
+				type: "item"
+				item: "simple_backpack:backpack"
+			}]
+			rewards: [{
+				id: "1590E0725D52BE43"
+				type: "item"
+				item: "simple_backpack:simple_bundle"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "534B9F2826B2834E"
+			tasks: [{
+				id: "6F1723D2F52C1684"
+				type: "item"
+				item: "more_gems:gembag"
+			}]
+			rewards: [{
+				id: "02738FBE63F22A4C"
+				type: "item"
+				item: "emerald_tools:ruby_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["433CE06D86617E52"]
+			id: "4D5C64BEE1B8E1CC"
+			tasks: [{
+				id: "7DF00808C44B376B"
+				type: "item"
+				item: "simple_backpack:ender_pack"
+			}]
+			rewards: [{
+				id: "623811BE0699B694"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "5E32C7DB1204161B"
+			tasks: [{
+				id: "75B836E6BE6E70F6"
+				type: "item"
+				item: "ironchests:copper_chest"
+			}]
+			rewards: [{
+				id: "390F514875289D74"
+				type: "item"
+				item: "ironchests:wood_copper_upgrade"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["5E32C7DB1204161B"]
+			id: "17022F136D4BC206"
+			tasks: [{
+				id: "280EA4DD5DFDA9E0"
+				type: "item"
+				item: "ironchests:iron_chest"
+			}]
+			rewards: [{
+				id: "24C57D575DB69005"
+				type: "item"
+				item: "ironchests:copper_iron_upgrade"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			dependencies: ["17022F136D4BC206"]
+			id: "482F08EDAAB05126"
+			tasks: [{
+				id: "1C409601DCC204AE"
+				type: "item"
+				item: "ironchests:gold_chest"
+			}]
+			rewards: [{
+				id: "00370A436494CDCD"
+				type: "item"
+				item: "ironchests:iron_gold_upgrade"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			dependencies: ["482F08EDAAB05126"]
+			id: "5FBE8AC8C0CDE18E"
+			tasks: [{
+				id: "758B4449D700F3B8"
+				type: "item"
+				item: "ironchests:diamond_chest"
+			}]
+			rewards: [{
+				id: "51E66C84657D15F4"
+				type: "item"
+				item: "ironchests:gold_diamond_upgrade"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			dependencies: ["5FBE8AC8C0CDE18E"]
+			id: "4742BA5CFD887DA8"
+			tasks: [{
+				id: "2D25C01F67A198A5"
+				type: "item"
+				item: "ironchests:crystal_chest"
+			}]
+			rewards: [{
+				id: "4F20ED165E2989B8"
+				type: "item"
+				item: "ironchests:wood_crystal_upgrade"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.5d
+			dependencies: ["4742BA5CFD887DA8"]
+			id: "3195AE5B3D4C08F9"
+			tasks: [{
+				id: "50B57A078FA80446"
+				type: "item"
+				item: "ironchests:obsidian_chest"
+			}]
+			rewards: [{
+				id: "72210AB316060983"
+				type: "item"
+				item: "ironchests:wood_obsidian_upgrade"
+			}]
+		}
+	]
+}

@@ -1,0 +1,769 @@
+{
+	id: "0000000000000004"
+	group: ""
+	order_index: 0
+	filename: "fromthedarkness"
+	title: "In the Beginning"
+	icon: "minecraft:campfire"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Think like a Hobbit"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Hobbit or not, you may need to act like one to survive. Dig, dig, dig!"
+				""
+				"Dig out 10 dirt blocks to create a safe hidey hole for the night and we'll toss ya a door for free."
+				""
+				"Tip: Be sure to read Create on a Potato PC"
+			]
+			dependencies: ["03F55170BAB80CD2"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000005"
+			tasks: [{
+				id: "0000000000000006"
+				type: "item"
+				title: "Any #minecraft:dirt"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:dirt"
+					}
+				}
+				count: 10L
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "0000000000000008"
+					type: "item"
+					item: "minecraft:oak_door"
+				}
+				{
+					id: "00000000000001C5"
+					type: "item"
+					item: "waystones:waystone"
+				}
+				{
+					id: "00000000000001C6"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000007D3"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:potato_fabric"
+						}
+					}
+				}
+				{
+					id: "142670505761EC13"
+					type: "item"
+					item: "kibe:big_torch"
+				}
+			]
+		}
+		{
+			title: "Don't Punch Trees..."
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "
+				""
+				"Put your axe to good use by chopping down 16 logs."
+			]
+			dependencies: ["0000000000000005"]
+			id: "000000000000000D"
+			tasks: [{
+				id: "000000000000000E"
+				type: "item"
+				title: "Any minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "000000000000000F"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Make your life easier by creating a Crafting Station. "
+				""
+				"Craft with it just like you would with the Crafting Table, but it'll also hold your recipe/ingredients in place."
+				""
+				"Nice, right?"
+			]
+			dependencies: ["000000000000000D"]
+			id: "0000000000000010"
+			tasks: [{
+				id: "0000000000000011"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "0000000000000013"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0000000000000048"
+					type: "item"
+					item: "resourceful_tools:jerky"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Any Minecraft Bed"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"You won't make it far in this land without getting some proper rest from time to time. "
+				""
+				"Build any Minecraft bed to come home to after a day of adventuring."
+				""
+				"FYI: The Attack Ward Block requires a redstone signal"
+			]
+			dependencies: ["0000000000000010"]
+			id: "0000000000000014"
+			tasks: [{
+				id: "0000000000000015"
+				type: "item"
+				title: "Any minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000016"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "000000000000001A"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "000000000000037B"
+					type: "item"
+					item: "ward_blocks:attack_ward_block"
+				}
+			]
+		}
+		{
+			title: "Don't Throw it Out!"
+			x: 3.0d
+			y: 1.5d
+			description: ["Build a composter so all those extra saplings and other plant matter don't go to waste!"]
+			dependencies: ["0000000000000010"]
+			id: "000000000000001B"
+			tasks: [{
+				id: "000000000000001C"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [{
+				id: "000000000000001D"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Now you're getting started! Let's go a step further. Find and mine up 12 Iron Ore."]
+			dependencies: ["00000000000000C7"]
+			id: "000000000000001E"
+			tasks: [{
+				id: "000000000000001F"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "0000000000000020"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "0000000000000502"
+					type: "item"
+					item: {
+						id: "resourceful_tools:crack_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Over an Open Fire"
+			disable_toast: true
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"There's nothing quite like a warm meal from cooking over a campfire."
+				""
+				"Get yourself a fire going and use this meat to get started."
+			]
+			dependencies: ["0000000000000010"]
+			id: "0000000000000025"
+			tasks: [{
+				id: "0000000000000026"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [
+				{
+					id: "0000000000000027"
+					type: "item"
+					item: "minecraft:beef"
+					count: 4
+				}
+				{
+					id: "0000000000000028"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 4
+				}
+				{
+					id: "0000000000000514"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["The allusive bamboo. We have found they can be crafted if you look in REI"]
+			dependencies: ["0000000000000005"]
+			id: "00000000000000C1"
+			tasks: [{
+				id: "00000000000000C2"
+				type: "item"
+				item: "minecraft:bamboo"
+			}]
+			rewards: [{
+				id: "00000000000000C5"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"]
+			dependencies: ["00000000000000C1"]
+			id: "00000000000000C3"
+			tasks: [{
+				id: "00000000000000C4"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 18L
+			}]
+			rewards: [{
+				id: "00000000000000C6"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Cobblestone can be much more useful than dirt."
+				""
+				"Gather 64 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
+			]
+			dependencies: ["0000000000000005"]
+			id: "00000000000000C7"
+			tasks: [{
+				id: "00000000000000C8"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "00000000000000E3"
+				type: "item"
+				item: "simple_backpack:backpack"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["00000000000000C7"]
+			id: "00000000000000C9"
+			tasks: [{
+				id: "00000000000000CA"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "00000000000000E2"
+				type: "item"
+				item: {
+					id: "botania:brew_flask"
+					Count: 1b
+					tag: {
+						brewKey: "botania:resistance"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: [
+				"00000000000000C7"
+				"00000000000000C9"
+			]
+			id: "00000000000000CB"
+			tasks: [{
+				id: "00000000000000CC"
+				type: "item"
+				item: "minecraft:smooth_stone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "000000000000050A"
+				type: "item"
+				item: "mob_catcher:mob_catcher"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"Now that you have some iron, smelt it down into some bars. "
+				""
+				"But wait! Use the Crack Hammer to bang that ore down into Crushed Iron Ore before blasting it in the furnace to double it."
+			]
+			dependencies: ["000000000000001E"]
+			id: "00000000000005C8"
+			tasks: [{
+				id: "00000000000005C9"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 24L
+			}]
+			rewards: [
+				{
+					id: "00000000000005CA"
+					type: "item"
+					item: "mining_dims:mining_teleporter"
+				}
+				{
+					id: "16F2084584E75185"
+					type: "item"
+					item: "mining_dims:mining_portal_block"
+					count: 14
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: [
+				"Xaero's World Map \\& Xaero's Minimap are client mods that map your Minecraft world in real-time as you explore."
+				""
+				"Xaero's provides a comprehensive Options Manager to let you safely configure dozens of preferences and options - default key \"Y\"."
+			]
+			dependencies: ["3E046FB9DDB11119"]
+			id: "6F94CFF9E4013396"
+			tasks: [{
+				id: "6CC071658A47F899"
+				type: "checkmark"
+				title: "Xaero's World Map \\& Minimap"
+			}]
+			rewards: [{
+				id: "7694CC56CD10814B"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:"
+				"\"/home set [name]\" will set a waypoint for your home. Example: \"/home set home\""
+				"\"/home tp [name]\" will teleport you to the home you set"
+				"\"/home delete [name]\" delete the home specified"
+				"/spawn teleport you to spawn"
+				"/tpaccept allows you to request a teleport to another player. The player on the other end must accept your request to complete the teleport."
+				"/rtp executes a teleport to a random location. Please note there is a cooldown period between random teleport."
+				"/back after death you can teleport to your death point or can be used to return to a previous location."
+				"\"/spawn set\" Sets the world spawn point - use for singleplayer. Admins will set this for a server."
+				"\"/spawn tp\" teleports you to spawn"
+			]
+			dependencies: [
+				"5AF39FF6AB1C6098"
+				"6F94CFF9E4013396"
+				"7C5E77C3A3B69BAC"
+			]
+			id: "03F55170BAB80CD2"
+			tasks: [{
+				id: "2C6A2CB6DF046D00"
+				type: "checkmark"
+				title: "Basic Commands"
+			}]
+			rewards: [{
+				id: "271EE954A8D05977"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Quest Basics - Step-by-Step"
+			x: 0.0d
+			y: -7.0d
+			shape: "diamond"
+			description: [
+				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with."
+				""
+				"**IMPORTANT:**"
+				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step."
+			]
+			size: 2.0d
+			id: "3E046FB9DDB11119"
+			tasks: [{
+				id: "78804D04AB0C9F36"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1DD1FE2C8C0F4E41"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: [
+				"REI is an item and recipe viewing mod for Minecraft."
+				"Basic Controls:"
+				"- Inventory:"
+				"  - (Minecraft Options -> Controls)"
+				"  - Show Recipes: Hover over item + R"
+				"  - Show Uses: Hover over item + U"
+				"  - Toggle Item List Overlay:"
+				"     Control + O"
+				"For more information visit curseforge.com and search mods for 'rei'"
+			]
+			dependencies: ["3E046FB9DDB11119"]
+			id: "5AF39FF6AB1C6098"
+			tasks: [{
+				id: "2822CA570EE5EF85"
+				type: "checkmark"
+				title: "Roughly Enough Items (REI)"
+			}]
+			rewards: [{
+				id: "59D3F3644923777E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["00000000000000C7"]
+			id: "4C865A25446A2C87"
+			tasks: [{
+				id: "7E5D52384F38AF3D"
+				type: "item"
+				item: "minecraft:raw_copper"
+				count: 24L
+			}]
+			rewards: [{
+				id: "7F5324F625290E85"
+				type: "item"
+				item: "minecraft:copper_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["4C865A25446A2C87"]
+			id: "385589CCBFED1A81"
+			tasks: [{
+				id: "5D79B3C80D0ABB30"
+				type: "item"
+				item: {
+					id: "emerald_tools:copper_treeaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03E66992E842DE27"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+				count: 6
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: [
+				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
+				""
+				"tinyurl.com/ftbchunk"
+				""
+				"Sorry, links do not work in quests."
+			]
+			dependencies: ["3E046FB9DDB11119"]
+			id: "7C5E77C3A3B69BAC"
+			tasks: [{
+				id: "1C5A1549701E3526"
+				type: "checkmark"
+				title: "Chunk Claims"
+			}]
+			rewards: [{
+				id: "52538CC317F82CFD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			min_required_dependencies: 1
+			dependencies: ["5474F1DD630CE7C6"]
+			dependency_requirement: "all_started"
+			id: "00000000000000B6"
+			tasks: [{
+				id: "00000000000000B7"
+				type: "item"
+				item: "minecraft:string"
+				count: 24L
+			}]
+			rewards: [{
+				id: "00000000000000BF"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["00000000000000B6"]
+			id: "00000000000000B8"
+			tasks: [{
+				id: "00000000000000B9"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "00000000000000C0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0000000000000519"
+					type: "item"
+					item: "minecraft:villager_spawn_egg"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["Craft a Copper Hook Knife to get string from sheep or wool"]
+			dependencies: ["00000000000005C8"]
+			id: "5474F1DD630CE7C6"
+			tasks: [{
+				id: "265BA2A4F7D6FC47"
+				type: "item"
+				item: {
+					id: "resourceful_tools:hook_knife_copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["Craft a stack of torches and get a handy dandy Torch Sling!"]
+			dependencies: ["0000000000000005"]
+			id: "29B69483965D4F12"
+			tasks: [{
+				id: "06FF08567F126EDA"
+				type: "item"
+				item: "minecraft:torch"
+				count: 64L
+			}]
+			rewards: [{
+				id: "43972A034971DC09"
+				type: "item"
+				item: "kibe:torch_sling"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: ["Used to light the various portals"]
+			dependencies: ["00000000000000C9"]
+			id: "45261F997F50C569"
+			tasks: [{
+				id: "5B5B718ADB0850D4"
+				type: "item"
+				item: "mining_dims:flint_and_diamond"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["Mining Dimension: A dimensions with two biomes (desert and plains) and is always noon; same ores and structures as Overworld."]
+			dependencies: ["45261F997F50C569"]
+			id: "0084A6AB130EB748"
+			tasks: [{
+				id: "62BF82A00408BBC4"
+				type: "item"
+				item: "mining_dims:mining_portal_block"
+				count: 10L
+			}]
+			rewards: [{
+				id: "64811DDB54647E32"
+				type: "item"
+				item: "kibe:slime_sling"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			description: ["Hunting Dimension: A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; seriously, the mobs are tough and you will likely die!"]
+			dependencies: ["45261F997F50C569"]
+			id: "757C79F089E1EDF7"
+			tasks: [{
+				id: "1E8FD669BF767EEB"
+				type: "item"
+				item: "mining_dims:hunting_portal_block"
+				count: 10L
+			}]
+			rewards: [{
+				id: "6545977423FDDA23"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			description: ["Caving Dimension: A safe haven dimension of Mushroom biome caves; same ores as Overworld;  only spawns bats and the occasional spider spawner in mineshafts. However, you may need to watch out for the occational dragon!"]
+			dependencies: ["45261F997F50C569"]
+			id: "1C9847EFFAB9BC90"
+			tasks: [{
+				id: "2AD87BB551AF39A0"
+				type: "item"
+				item: "mining_dims:caving_portal_block"
+				count: 10L
+			}]
+			rewards: [{
+				id: "573CE0B805768750"
+				type: "item"
+				item: "mythicmounts:summoning_staff"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			description: ["Nethering Dim: A vanilla-only Nether dimension, helpful for finding vanilla resources that are difficult to find when the regular Nether is filled with modded biomes."]
+			dependencies: ["45261F997F50C569"]
+			id: "188DC87D71D052FB"
+			tasks: [{
+				id: "3CE7B9C0788B306C"
+				type: "item"
+				item: "mining_dims:nethering_portal_block"
+				count: 10L
+			}]
+			rewards: [{
+				id: "44E8A6CBC18994F7"
+				type: "item"
+				item: {
+					id: "kibe:magenta_glider"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["Climbing Dimension: A dimension with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld"]
+			dependencies: ["45261F997F50C569"]
+			id: "079353FC0E2FB2CC"
+			tasks: [{
+				id: "4C040C0F2B586300"
+				type: "item"
+				item: "mining_dims:climbing_portal_block"
+				count: 10L
+			}]
+			rewards: [{
+				id: "63A171B80E09B668"
+				type: "item"
+				item: {
+					id: "kibe:slime_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

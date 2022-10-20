@@ -56,8 +56,8 @@ minecraft/defaultconfigs/*
 
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/fancymenu/
-# !minecraft/config/ftbquests
-# !server/config/ftbquests
+!minecraft/config/ftbquests
+!server/config/ftbquests
 
 
 # Stop ignoring these files
