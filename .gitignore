@@ -29,6 +29,10 @@ server/config/*
 server/logs/*
 server/mods/*
 
+# ignore these symbolic linked folders
+server/kubejs
+server/patchouli_books
+
 # Ignore these files
 minecraft/icon.png
 minecraft/keys.txt
