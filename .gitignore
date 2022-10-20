@@ -52,7 +52,7 @@ modlist.html
 docs/*
 minecraft/defaultconfigs/*
 
-# Stop ignoring these folgers
+# Stop ignoring these folders
 
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/fancymenu/
