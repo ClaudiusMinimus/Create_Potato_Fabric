@@ -1,0 +1,17 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:ancient_debris"
+    },
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "output": {
+    "id": "minecraft:netherite_scrap",
+    "count": 6
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 100
+}

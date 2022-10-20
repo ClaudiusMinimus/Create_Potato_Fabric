@@ -1,0 +1,16 @@
+{
+  "fuels": [
+    {
+      "item": "gobber2:gobber2_foo",
+      "fuel": 12000
+    },
+    {
+      "item": "gobber2:gobber2_foo_nether",
+      "fuel": 24000
+    },
+    {
+      "item": "gobber2:gobber2_foo_end",
+      "fuel": 32000
+    }
+  ]
+}

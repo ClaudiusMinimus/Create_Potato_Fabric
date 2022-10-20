@@ -29,7 +29,6 @@ server/config/*
 server/logs/*
 server/mods/*
 
-minecraft/kubejs/*
 minecraft/patchouli_books/*
 
 # Ignore these files
