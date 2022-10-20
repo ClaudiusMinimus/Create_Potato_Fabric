@@ -1,0 +1,69 @@
+# Ignore these folders
+minecraft/.bobby/*
+minecraft/.fabric/*
+minecraft/.mixin.out/*
+minecraft/backup/*
+minecraft/config/*
+minecraft/coremods/*
+minecraft/craftpresence/*
+minecraft/crash-reports/*
+minecraft/fancymenu_data/*
+minecraft/fancymenu_setups/*
+minecraft/local/*
+minecraft/logs/*
+minecraft/moddata/*
+minecraft/mods/*
+minecraft/mods_old/*
+minecraft/ModTranslations/*
+minecraft/resourcepacks/*
+minecraft/saves/*
+minecraft/schematics/*
+minecraft/screenshots/*
+minecraft/server-resource-packs/*
+minecraft/shaderpacks/*
+minecraft/texturepacks/*
+minecraft/Xaero*/*
+builds/*server*.zip
+natives/*
+server/config/*
+server/logs/*
+server/mods/*
+
+minecraft/kubejs/*
+minecraft/patchouli_books/*
+
+# Ignore these files
+minecraft/icon.png
+minecraft/keys.txt
+minecraft/options.amecsapi.txt
+minecraft/options.justenoughkeys.txt
+minecraft/options.txt
+minecraft/patchouli_data.json
+minecraft/polymer-resourcepack.zip
+minecraft/rhino.local.properties
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/usercache.json
+*.code-workspace
+.packignore
+instance.cfg
+mmc-pack.json
+modlist.html
+docs/*
+minecraft/defaultconfigs/*
+
+# Stop ignoring these folgers
+
+# !minecraft/config/drippyloadingscreen/
+# !minecraft/config/fancymenu/
+# !minecraft/config/ftbquests
+# !server/config/ftbquests
+
+
+# Stop ignoring these files
+!minecraft/TrashSlotSaveState.json
+!minecraft/config/bcc-common.toml
+#!minecraft/config/craftpresence.properties
+# !minecraft/config/xaerominimap.txt
+# !minecraft/config/xaerominimap_entities.json
+!server/config/bcc-common.toml
