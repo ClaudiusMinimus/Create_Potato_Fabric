@@ -7,6 +7,7 @@ minecraft/config/*
 minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
+minecraft/ESM/*
 minecraft/fancymenu_data/*
 minecraft/fancymenu_setups/*
 minecraft/local/*
@@ -30,6 +31,7 @@ server/logs/*
 server/mods/*
 
 # ignore these symbolic linked folders
+server/config/ftbquests
 server/kubejs
 server/patchouli_books
 
@@ -59,7 +61,7 @@ modlist.html
 !minecraft/config/more_gems/
 !minecraft/config/simple_backpack/
 !minecraft/config/yosbr/
-!server/config/ftbquests
+# !server/config/ftbquests
 
 # Stop ignoring these files
 !minecraft/config/bcc.json
@@ -67,3 +69,4 @@ modlist.html
 # !minecraft/config/xaerominimap.txt
 # !minecraft/config/xaerominimap_entities.json
 !server/config/bcc.json
+!server/config/carrier.json
