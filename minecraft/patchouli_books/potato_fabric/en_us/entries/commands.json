@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "List of commonly used commands: $(br)$(l)Spawn$()$(li)/spawn$(li)/spawn set $(4)$(l)*$()$(br)$(l)Teleport requests$()$(li)/tpa <target-player>$(li)/tpahere <target-player>$(li)/tpaccept <target-player>$(li)/tpdeny <target-player>$()$(br)$(l)Player Homes$()$(li)/home set <home-name>$(li)/home tp <home-name>$(li)/home delete <home-name>$()"
+            "text": "List of commonly used commands: $(br)$(l)Spawn$()$(li)$(c:/spawn tp)/spawn tp$(/c)$(li)$(c:/spawn set)/spawn set$(/c) $(4)$(l)*$()$(br)$(l)Teleport requests$()$(li)/tpa <target-player>$(li)/tpahere <target-player>$(li)/tpaccept <target-player>$(li)/tpdeny <target-player>$()$(br)$(l)Player Homes$()$(li)/home set <home-name>$(li)/home tp <home-name>$(li)/home delete <home-name>$()"
         },
         {
             "type": "patchouli:text",
-            "text": "$(br)$(l)Warps$$(4)$(l) *$()$(li)/warp set <warp-name>$(li)/warp tp <warp-name>$(li)/warp delete <warp-name>$()$(br)$(l)Back$()$(li)/back$(br)$(l)Nickname$()/nickname set <nickname>/nickname clear/nickname reveal <nickname>$()$(br)$(l)Random Teleport$()$(li)/randomteleport$(li)/rtp$()$(br)$(4)$(l)*$()Must be in single player with cheats enabled or if on a server, then have admin privs."
+            "text": "$(br)$(l)Warps$$(4)$(l) *$()$(li)/warp set <warp-name>$(li)/warp tp <warp-name>$(li)/warp delete <warp-name>$()$(br)$(l)Back$()$(li)$(c:/back)/back$(/c)$(br)$(l)Nickname$()/nickname set <nickname>/nickname clear/nickname reveal <nickname>$()$(br)$(l)Random Teleport$()$(li)$(c:/randomteleport)/randomteleport$(/c)$(li)$(c:/rtp)/rtp$(/c)$()$(br)$(4)$(l)*$()Must be in single player with cheats enabled or if on a server, then have admin privs."
         },
         {
             "type": "patchouli:text",
