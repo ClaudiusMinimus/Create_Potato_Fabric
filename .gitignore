@@ -14,7 +14,7 @@ minecraft/local/*
 minecraft/logs/*
 minecraft/moddata/*
 minecraft/mods/*
-minecraft/mods_old/*
+minecraft/mods*/*
 minecraft/ModTranslations/*
 minecraft/resourcepacks/*
 minecraft/saves/*
@@ -42,6 +42,7 @@ minecraft/options.amecsapi.txt
 minecraft/options.justenoughkeys.txt
 minecraft/options.txt
 minecraft/patchouli_data.json
+minecraft/pfmUpdateInfo.json
 minecraft/polymer-resourcepack.zip
 minecraft/rhino.local.properties
 minecraft/servers.dat
