@@ -8,3 +8,4 @@ Oct. 24, 2022
 - Mods Updated: 
 - Mods Removed: 
 - Other Changes: 
+  - Update Potato book
