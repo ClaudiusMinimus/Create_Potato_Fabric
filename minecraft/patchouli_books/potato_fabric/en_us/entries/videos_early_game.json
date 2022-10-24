@@ -21,6 +21,11 @@
             "title": "Sugarcane Farm",
             "type": "patchouli:text",
             "text": "Dusty Dude's $(l:https://www.youtube.com/watch?v=Mo6bcbPjyRA)Flying Machine Sugarcane Farm$(/l). This farm can really kick out a lot of sugarcane. I made one three chunks long and I had TONS of sugarcane! However, with the Create mod you may want to consider using it to make most of your farms."
+        },
+        {
+            "title": "Cave Spider Farm",
+            "type": "patchouli:text",
+            "text": "With this very easy to make $(l:https://www.youtube.com/watch?v=DFXppgfjI_A)Cave Spider Farm$(/l) you will have all of the string and spider eyes you will ever need! This is also a great early game XP farm.$(br2)Pick up any spawner with a silk touch pick. Right-clicking on a spawner to retrieve it's spawn egg which can be used in any spawner."
         }
     ]
 }
