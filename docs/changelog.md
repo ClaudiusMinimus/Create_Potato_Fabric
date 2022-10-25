@@ -1,7 +1,27 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
-## Create on a Potato PC Fabric Edition 1.18.2-1.2.2
+## Create on a Potato PC Fabric Edition 1.18.2-1.3.0
 Oct. 24, 2022
+- Mods Added:
+  - paladin-furniture-mod-1.1.1-fabric-mc1.18.2.jar 
+- Mods Updated: 
+  - architectury-4.10.86-fabric.jar 
+  - cloth-config-6.4.90-forge.jar 
+  - EditSign-1.18.2-0.0.1-dev.jar 
+  - extremesoundmuffler-3.30_fabric-1.18.2.jar 
+  - fancymenu_fabric_2.12.6_MC_1.18.2.jar 
+  - geckolib-fabric-1.18-3.0.68.jar 
+  - MiningDimensions_Fabric-1.18.2-1.3.10.jar 
+  - ModularLootCrates-3.4.0-1.18.1.jar 
+  - rightclickharvest-3.0.2+1.18.jar 
+  - RoughlyEnoughItems-8.3.556.jar 
+  - YungsApi-1.18.2-Fabric-2.2.6.jar 
+- Mods Removed: 
+- Other Changes:
+  - Update Fabric loader to 0.14.10
+
+## Create on a Potato PC Fabric Edition 1.18.2-1.2.2
+Oct. 20, 2022
 - Mods Added: 
   - mcw-roofs-2.2.1-mc1.18.2-fabric.jar
   - mcw-windows-2.0.3bfabric-mc1.18.2.jar
@@ -9,3 +29,117 @@ Oct. 24, 2022
 - Mods Removed: 
 - Other Changes: 
   - Update Potato book
+
+## Create on a Potato PC Fabric Edition 1.18.2-1.1.0
+Oct. 11, 2022
+- Mods Added: 
+ -  1.18.2-StorageCabinet-1.4.3
+ -  AdditionalAdditions-4.0.5
+ -  All Arrows Infinity Fix-FABRIC-1.0.0-MC-1.18
+ -  appleskin-fabric-mc1.18.2-2.4.1
+ -  architects-palette-fabric-2.2
+ -  architectury-4.9.84-fabric
+ -  autoconfig1u-3.4.0
+ -  auudio_fabric_1.0.3_MC_1.18-1.18.2
+ -  balm-fabric-3.2.0+0
+ -  betterCompatibilityChecker-fabric-1.0.5
+ -  bobby-3.1.1
+ -  Bookshelf-Fabric-1.18.2-13.2.50
+ -  borderless-mining-1.1.2+1.18.2
+ -  Botania-1.18.2-435-FABRIC
+ -  BuildingWands_mc1.18.2-2.6.3_release-fabric
+ -  camerautils-1.18.2-1.0.1
+ -  chisel-1.4.5+1.18.x
+ -  cloth-config-6.2.57-fabric
+ -  Clumps-fabric-1.18.2-8.0.0+15
+ -  comforts-fabric-1.1.3-1.18.2
+ -  continuity-2.0.1+1.18.2
+ -  Couplings-1.8.1+1.18.2
+ -  craftingtweaks-fabric-1.18.2-14.0.3
+ -  create-fabric-1.18.2-0.5.0e-733
+ -  createaddition+1.18.2-20220914a
+ -  createplus-1.0.0-beta4
+ -  cullleaves-2.3.2
+ -  dankstorage-1.18.2-3.7.2
+ -  dark-enchanting-1.0.0+1.18.2
+ -  deepslatecutting-1.18.2-1.3.4
+ -  drippyloadingscreen_fabric_1.6.4_MC_1.18-1.18.2
+ -  DynamicSoundFilters-1.3.0+1.18.2
+ -  EditSign-1.18.2-2.3.1
+ -  ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric
+ -  EmeraldTools-Fabric-1.18.2-1.3.48
+ -  EnchantmentDescriptions-Fabric-1.18.2-10.0.9
+ -  essential_commands-0.24.5-mc1.18.2
+ -  EssentialGUI-1.7.3+1.18.2
+ -  ExtendedDrawers-1.3.4+mc.1.18.2
+ -  extremesoundmuffler-3.29_fabric-1.18.2
+ -  fabric-api-0.59.0+1.18.2
+ -  fabric-branders-spawnermod-1.18.2-1.1.2
+ -  fabric-language-kotlin-1.8.5+kotlin.1.7.20
+ -  fabric-language-scala-1.1.0+scala.2.13.6-fat
+ -  fancymenu_fabric_2.12.3_MC_1.18.2
+ -  farmers-delight-fabric-1.18.2-1.2.1
+ -  farmingforblockheads-fabric-1.18.2-10.0.2
+ -  feature_nbt_deadlock_be_gone_fabric-2.0.0+1.18.2-rc1
+ -  ftb-chunks-fabric-1802.3.6-build.170
+ -  ftb-library-fabric-1802.3.6-build.140
+ -  ftb-quests-fabric-1802.3.8-build.106
+ -  ftb-ranks-fabric-1802.1.8-build.34
+ -  ftb-teams-fabric-1802.2.6-build.69
+ -  geckolib-fabric-1.18-3.0.67
+ -  graves-2.0.3+1.18.2
+ -  grind-enchantments-1.6.4+1.18.2
+ -  grizzlybear-1.18-1.3
+ -  here-be-no-dragons-1.0.0
+ -  indium-1.0.7+mc1.18.2
+ -  IronChests-1.7.4
+ -  item-filters-fabric-1802.2.7-build.21
+ -  jam-lib-0.0.5
+ -  justenoughkeys-0.5.3-fabric
+ -  keywizard-fabric-v2.0.1
+ -  kibe-1.9.10-BETA+1.18
+ -  konkrete_fabric_1.5.3_MC_1.18-1.18.2
+ -  kubejs-fabric-1802.5.5-build.550
+ -  lambdynamiclights-2.1.0+1.17
+ -  leaves-us-in-peace-1.0.11+MC1.18.2
+ -  light-overlay-6.0.5
+ -  mcpitanlibarch-1.0.8-1.18-fabric
+ -  MiningDimensions_Fabric-1.18.2-1.3.9
+ -  Mo-Glass-1.6.1-MC1.18.2
+ -  MobCatcher-Fabric-1.18.2-1.1.29
+ -  modmenu-3.2.3
+ -  ModularLootCrates-3.2.0-1.18.1
+ -  MoreGems-Fabric-1.18.2-1.3.72
+ -  MouseTweaks-fabric-mc1.18-2.22
+ -  mousewheelie-1.10.2+mc1.18.2
+ -  mythic-mounts-1.18.2-7.0
+ -  NE-1.18-Fabric-1.4.0
+ -  Patchouli-1.18.2-71.1-FABRIC
+ -  phosphor-fabric-mc1.18.x-0.8.1
+ -  polymorph-fabric-0.0.21-1.18.2
+ -  projectsavethepets-3.1.0-old.1.18+2022.10af157d70.fabric
+ -  reeses_sodium_options-1.4.7+mc1.18.2-build.58
+ -  repurposed_structures_fabric-4.1.14+1.18.2
+ -  ResourcefulTools-Fabric-1.18.2-1.2.38
+ -  rhino-fabric-1802.2.1-build.240
+ -  rightclickharvest-3.0.1+1.18
+ -  RoughlyEnoughItems-8.3.549
+ -  shulkerboxtooltip-fabric-3.1.3+1.18.2
+ -  SimpleBackpack_Fabric-1.18.2-1.2.37
+ -  sodium-extra-0.4.11+mc1.18.2-build.67
+ -  sodium-fabric-mc1.18.2-0.4.1+build.15
+ -  textile_backup-2.4.0-1.18
+ -  The_Graveyard_1.9_(FABRIC)_for_1.18.2
+ -  toms_storage_fabric-1.18.2-1.4.3
+ -  trinkets-3.3.1
+ -  UncraftingTable-fabric-1.1.0
+ -  WardBlocks-Fabric-1.18.2-1.2.28
+ -  waystones-fabric-1.18.2-10.1.0
+ -  wmitaf-fabric-mc1.18.2-2.4.0
+ -  Xaeros_Minimap_22.16.0_Fabric_1.18.2
+ -  XaerosWorldMap_1.28.1_Fabric_1.18.2
+ -  YungsApi-1.18.2-Fabric-2.0.8
+- Mods Updated: 
+- Mods Removed: 
+- Other Changes:
+  - Imported Potato book and quests from the forge version of this pack
