@@ -36,6 +36,7 @@ server/kubejs
 server/patchouli_books
 
 # Ignore these files
+*.log
 minecraft/icon.png
 minecraft/keys.txt
 minecraft/options.amecsapi.txt
@@ -55,6 +56,7 @@ mmc-pack.json
 modlist.html
 
 # Stop ignoring these folders
+!minecraft/config/bhmenu
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/EssentialGUI/
 !minecraft/config/fancymenu/
