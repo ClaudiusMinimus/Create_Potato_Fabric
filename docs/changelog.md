@@ -1,5 +1,18 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
+## Create on a Potato PC Fabric Edition 1.18.2-1.4.0
+Oct. 27, 2022
+- Mods Added: 
+  - bhmenu-1.17.1-1.18.2-1.3.jar
+- Mods Updated: 
+  - drippyloadingscreen_fabric_1.6.5_MC_1.18-1.18.2.jar
+- Mods Removed:
+  - All Arrows Infinity Fix-FABRIC-1.0.0-MC-1.18 (does work with modded bows)
+  - auudio_fabric_1.0.3_MC_1.18-1.18.2 (no longer required dependency)
+  - WardBlocks-Fabric-1.18.2-1.2.28 (not needed)
+- Other Changes:
+  - Added basic starter items
+
 ## Create on a Potato PC Fabric Edition 1.18.2-1.3.0
 Oct. 24, 2022
 - Mods Added:
