@@ -173,11 +173,6 @@
 					type: "item"
 					item: "minecraft:barrel"
 				}
-				{
-					id: "000000000000037B"
-					type: "item"
-					item: "ward_blocks:attack_ward_block"
-				}
 			]
 		}
 		{
@@ -366,7 +361,11 @@
 			rewards: [{
 				id: "000000000000050A"
 				type: "item"
-				item: "mob_catcher:mob_catcher"
+				item: {
+					id: "kibe:golden_lasso"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -385,19 +384,11 @@
 				item: "minecraft:iron_ingot"
 				count: 24L
 			}]
-			rewards: [
-				{
-					id: "00000000000005CA"
-					type: "item"
-					item: "mining_dims:mining_teleporter"
-				}
-				{
-					id: "16F2084584E75185"
-					type: "item"
-					item: "mining_dims:mining_portal_block"
-					count: 14
-				}
-			]
+			rewards: [{
+				id: "00000000000005CA"
+				type: "item"
+				item: "mining_dims:mining_teleporter"
+			}]
 		}
 		{
 			x: 1.5d

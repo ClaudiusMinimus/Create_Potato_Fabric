@@ -553,12 +553,23 @@
 				entity: "minecraft:ender_dragon"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0000000000000467"
-				type: "item"
-				item: "minecraft:diamond_block"
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "0000000000000467"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 10
+				}
+				{
+					id: "5B6AF4DB05A31F61"
+					type: "item"
+					item: {
+						id: "kibe:angel_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			icon: "minecraft:sea_lantern"

@@ -1550,7 +1550,11 @@
 			rewards: [{
 				id: "31AD34AA299469BD"
 				type: "item"
-				item: "mob_catcher:mob_catcher_hostile"
+				item: {
+					id: "kibe:cursed_lasso"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -1633,6 +1637,11 @@
 				id: "47334CC382A4D358"
 				type: "item"
 				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "64E207E103BD8DF0"
+				type: "item"
+				item: "kibe:entangled_tank"
 			}]
 		}
 	]
