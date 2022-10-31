@@ -16,8 +16,6 @@
 				"Hobbit or not, you may need to act like one to survive. Dig, dig, dig!"
 				""
 				"Dig out 10 dirt blocks to create a safe hidey hole for the night and we'll toss ya a door for free."
-				""
-				"Tip: Be sure to read Create on a Potato PC"
 			]
 			dependencies: ["03F55170BAB80CD2"]
 			dependency_requirement: "one_completed"
@@ -55,17 +53,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000007D3"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "patchouli:potato_fabric"
 						}
 					}
 				}
