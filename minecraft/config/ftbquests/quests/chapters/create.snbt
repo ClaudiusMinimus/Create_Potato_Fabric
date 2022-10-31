@@ -13,6 +13,7 @@
 			x: 0.0d
 			y: -4.5d
 			shape: "diamond"
+			subtitle: "Start Here"
 			description: [
 				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine."
 				""
