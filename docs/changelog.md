@@ -1,5 +1,17 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
+## Create on a Potato PC Fabric Edition 1.18.2-1.5.0
+Oct. 31, 2022
+- Mods Added: 
+- Mods Updated: 
+- Mods Removed: 
+- Other Changes: 
+  - Set Spice of Fabric to carrot mode with modifications. `minecraft/config/spiceoffabric.hjson`
+  - Fixed some default options
+    - `minecraft/defaultconfigs/ftbchunks/client-config.snbt`
+    - `minecraft/defaultconfigs/ftbchunks/ftbchunks-world.snbt`
+  - Fixed some conflicting keybinds
+
 ## Create on a Potato PC Fabric Edition 1.18.2-1.4.0
 Oct. 27, 2022
 - Mods Added: 
