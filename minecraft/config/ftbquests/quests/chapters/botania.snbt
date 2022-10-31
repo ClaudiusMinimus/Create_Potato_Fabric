@@ -11,9 +11,10 @@
 		{
 			title: "Starting Garden of Glass"
 			icon: "botania:lexicon"
-			x: 0.0d
-			y: 6.0d
+			x: -6.486054421768706d
+			y: 12.445578231292515d
 			shape: "diamond"
+			subtitle: "Start Here"
 			description: [
 				""
 				"You Lexica Botania is an invaluable wealth of information - use it often!"
@@ -34,8 +35,8 @@
 		}
 		{
 			title: "Any Botania Mystical Flowers"
-			x: 0.0d
-			y: 9.5d
+			x: -3.0d
+			y: 12.5d
 			description: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
 			dependencies: ["4868A27F76C700DC"]
 			id: "5AE38D7F1ACE1065"
@@ -60,8 +61,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 8.0d
+			x: -4.5d
+			y: 12.5d
 			subtitle: "Use Living Root Sparingly!"
 			description: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
 			dependencies: ["678645C952FCF8CC"]
@@ -97,8 +98,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 11.0d
+			x: -1.5d
+			y: 12.5d
 			description: [
 				"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary."
 				""
@@ -118,8 +119,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 12.5d
+			x: 0.0d
+			y: 11.0d
 			description: ["Important crafting ingredient for many recipes."]
 			dependencies: ["55468A5FB8BA4A1F"]
 			id: "542DD76032B66B50"
@@ -137,8 +138,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 14.0d
+			x: 1.5d
+			y: 12.5d
 			description: ["Important crafting ingredient for many recipes."]
 			dependencies: ["55468A5FB8BA4A1F"]
 			id: "754F5D734147F8BA"
@@ -156,8 +157,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 12.5d
+			x: 0.0d
+			y: 9.5d
 			description: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 			dependencies: ["542DD76032B66B50"]
 			id: "60760C5B4FB95DEA"
@@ -190,8 +191,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 21.5d
+			x: -3.0d
+			y: 16.5d
 			description: [
 				"This crafting station can be used to create each of the 16 Runes. When it is placed, 2 cubes can be seen swirling around above it."
 				""
@@ -213,7 +214,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -1.5d
 			y: 11.0d
 			description: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
 			dependencies: ["78FEF9A7E20E7C06"]
@@ -231,8 +232,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 21.5d
+			x: -7.0d
+			y: 16.5d
 			description: [" Right-click with this rod will place Water for some mana cost."]
 			dependencies: ["0059F4044C719D7D"]
 			id: "7000D800442BDB20"
@@ -248,8 +249,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 14.0d
+			x: 1.5d
+			y: 11.0d
 			description: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 			dependencies: ["754F5D734147F8BA"]
 			id: "168B204949452C03"
@@ -276,8 +277,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 21.5d
+			x: -5.5d
+			y: 16.5d
 			description: ["Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "0059F4044C719D7D"
@@ -288,8 +289,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 22.5d
+			x: -7.0d
+			y: 17.5d
 			description: ["Right-click with this rod will place Dirt for some mana cost."]
 			dependencies: ["6D698E9864D3C153"]
 			id: "2AC4427434E9FBCB"
@@ -306,8 +307,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 22.5d
+			x: -5.5d
+			y: 17.5d
 			description: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "6D698E9864D3C153"
@@ -323,8 +324,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 12.5d
+			x: 0.0d
+			y: 8.0d
 			description: ["Sometimes complex devices like Droppers or Dispensers can't offer enough precision or speed. A simple solution: Make a crate, then punch a hole in its bottom. Yeah, it's that easy. The Open Crate accepts each item from a Hopper or other item outputter, and drops the item directly below it."]
 			dependencies: ["60760C5B4FB95DEA"]
 			id: "4C1249721C8EBFBB"
@@ -341,7 +342,7 @@
 		}
 		{
 			x: 1.5d
-			y: 12.5d
+			y: 15.5d
 			description: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
 			dependencies: ["2D9DC78C66027DF2"]
 			id: "11E7D116CDEC9D03"
@@ -357,7 +358,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -3.0d
 			y: 9.5d
 			shape: "gear"
 			description: ["Starting a tree farm may be a good idea since you will need lots of fuel to keep your Endoflames going. Think Create!"]
@@ -370,8 +371,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 9.5d
+			x: -3.0d
+			y: 11.0d
 			description: ["The Endoflame is a very rudimentary generating flower; it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana."]
 			dependencies: ["5AE38D7F1ACE1065"]
 			id: "03B2EDF78A084226"
@@ -430,8 +431,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 15.5d
+			x: 3.0d
+			y: 11.0d
 			description: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
 			dependencies: ["754F5D734147F8BA"]
 			id: "0A865D877C969C7B"
@@ -449,7 +450,7 @@
 		}
 		{
 			x: 3.0d
-			y: 15.0d
+			y: 15.5d
 			description: ["When equipped in the Curios Amulet slot, it shows nearby Mana bursts (even those out of the line of sight) and the functional radii of flowers to the player. "]
 			dependencies: ["4EBF5AB892CDCB14"]
 			id: "21FE58A9CB80B99B"
@@ -501,8 +502,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 20.5d
+			x: -5.5d
+			y: 15.5d
 			description: ["Rune of Air is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "721AD3481887982A"
@@ -518,8 +519,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 20.5d
+			x: -7.0d
+			y: 15.5d
 			description: [
 				"A functional flower that takes item sprites dropped in the world around it and places them in an adjacent inventory. It does not require mana to do this, but supplying mana will increase the range of the flower."
 				""
@@ -539,8 +540,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 23.5d
+			x: -5.5d
+			y: 18.5d
 			description: ["Rune of Fire is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "74CD206E24B85187"
@@ -556,8 +557,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 23.5d
+			x: -7.0d
+			y: 18.5d
 			description: ["When supplied with Mana by a Mana Pool within a 10 block radius, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks."]
 			dependencies: ["74CD206E24B85187"]
 			id: "2C9103778A885567"
@@ -574,8 +575,8 @@
 		}
 		{
 			title: "Wand of the Forest"
-			x: -3.0d
-			y: 14.0d
+			x: -1.5d
+			y: 9.5d
 			description: [
 				"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
 				""
@@ -608,8 +609,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 19.5d
+			x: -5.0d
+			y: 14.5d
 			description: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "6181C8F6420EB67C"
@@ -625,8 +626,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 19.5d
+			x: -3.0d
+			y: 14.5d
 			description: ["Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "1D37B87AC7F4C995"
@@ -648,8 +649,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 19.5d
+			x: -4.0d
+			y: 14.5d
 			description: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "357FC93850CE6424"
@@ -666,8 +667,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 19.5d
+			x: -2.0d
+			y: 14.5d
 			description: ["Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "4EBDC9C39E00EE26"
@@ -684,8 +685,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 20.5d
+			x: -1.0d
+			y: 14.5d
 			description: ["Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "22119C9F2244D41E"
@@ -701,8 +702,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 21.5d
+			x: -0.5d
+			y: 16.5d
 			description: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "25E2B295763EE9C0"
@@ -725,8 +726,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 22.5d
+			x: -0.5d
+			y: 17.5d
 			description: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "329580579F9DC034"
@@ -743,8 +744,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 23.5d
+			x: -0.5d
+			y: 18.5d
 			description: ["Rune of Sloth is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "2CB6399BF755E30C"
@@ -761,8 +762,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 24.0d
+			x: -1.5d
+			y: 19.0d
 			description: ["Rune of Wrath is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "4C1D7E27D15961A5"
@@ -784,8 +785,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 24.0d
+			x: -3.5d
+			y: 19.0d
 			description: ["Rune of Envy is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "1F90341E0DE3FF66"
@@ -801,8 +802,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 24.0d
+			x: -2.5d
+			y: 19.0d
 			description: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "477EDACF18125B64"
@@ -864,8 +865,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 24.0d
+			x: -4.5d
+			y: 19.0d
 			description: ["Rune of Mana is an item added by the Botania mod. One of 16 Runes, this is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
 			id: "791E12B68D088464"
@@ -922,8 +923,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 15.0d
+			x: 1.5d
+			y: 9.5d
 			description: ["When worn, it is able to store Mana like the Mana Tablet. "]
 			dependencies: ["168B204949452C03"]
 			id: "2B13CF9D2DB9872C"
@@ -965,8 +966,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 25.5d
+			x: -4.5d
+			y: 20.5d
 			description: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
 			dependencies: ["791E12B68D088464"]
 			id: "3E218EE721C60CC2"

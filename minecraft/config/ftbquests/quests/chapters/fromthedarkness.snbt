@@ -251,8 +251,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -1.5d
 			description: ["The allusive bamboo. We have found they can be crafted if you look in REI"]
 			dependencies: ["0000000000000005"]
 			id: "00000000000000C1"
@@ -268,8 +268,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"]
 			dependencies: ["00000000000000C1"]
 			id: "00000000000000C3"
@@ -308,8 +308,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.5d
+			x: -2.5d
+			y: 3.5d
 			dependencies: ["00000000000000C7"]
 			id: "00000000000000C9"
 			tasks: [{
@@ -332,12 +332,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 3.5d
-			dependencies: [
-				"00000000000000C7"
-				"00000000000000C9"
-			]
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["00000000000000C9"]
 			id: "00000000000000CB"
 			tasks: [{
 				id: "00000000000000CC"
@@ -378,8 +375,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -5.0d
+			x: -3.0d
+			y: -1.5d
 			description: [
 				"Xaero's World Map \\& Xaero's Minimap are client mods that map your Minecraft world in real-time as you explore."
 				""
@@ -399,8 +396,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: -1.5d
+			y: 0.0d
 			description: [
 				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:"
 				"\"/home set [name]\" will set a waypoint for your home. Example: \"/home set home\""
@@ -432,9 +429,10 @@
 		}
 		{
 			title: "Quest Basics - Step-by-Step"
-			x: 0.0d
-			y: -7.0d
+			x: -5.5d
+			y: 0.0d
 			shape: "diamond"
+			subtitle: "Always Start at the Diamond shaped quest"
 			description: [
 				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with."
 				""
@@ -454,8 +452,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.0d
+			x: -3.0d
+			y: 1.5d
 			description: [
 				"REI is an item and recipe viewing mod for Minecraft."
 				"Basic Controls:"
@@ -521,8 +519,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -5.0d
+			x: -3.0d
+			y: 0.0d
 			description: [
 				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 				""
@@ -605,8 +603,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
 			description: ["Craft a stack of torches and get a handy dandy Torch Sling!"]
 			dependencies: ["0000000000000005"]
 			id: "29B69483965D4F12"
@@ -623,8 +621,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.0d
+			x: -5.0d
+			y: 5.5d
 			description: ["Used to light the various portals"]
 			dependencies: ["00000000000000C9"]
 			id: "45261F997F50C569"
@@ -635,8 +633,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: -3.5d
+			y: 5.0d
 			description: ["Mining Dimension: A dimensions with two biomes (desert and plains) and is always noon; same ores and structures as Overworld."]
 			dependencies: ["45261F997F50C569"]
 			id: "0084A6AB130EB748"
@@ -653,8 +651,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -0.5d
+			x: -5.0d
+			y: 4.0d
 			description: ["Hunting Dimension: A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; seriously, the mobs are tough and you will likely die!"]
 			dependencies: ["45261F997F50C569"]
 			id: "757C79F089E1EDF7"
@@ -680,8 +678,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 0.5d
+			x: -6.5d
+			y: 5.0d
 			description: ["Caving Dimension: A safe haven dimension of Mushroom biome caves; same ores as Overworld;  only spawns bats and the occasional spider spawner in mineshafts. However, you may need to watch out for the occational dragon!"]
 			dependencies: ["45261F997F50C569"]
 			id: "1C9847EFFAB9BC90"
@@ -698,8 +696,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 2.5d
+			x: -6.0d
+			y: 7.0d
 			description: ["Nethering Dim: A vanilla-only Nether dimension, helpful for finding vanilla resources that are difficult to find when the regular Nether is filled with modded biomes."]
 			dependencies: ["45261F997F50C569"]
 			id: "188DC87D71D052FB"
@@ -720,8 +718,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.5d
+			x: -4.0d
+			y: 7.0d
 			description: ["Climbing Dimension: A dimension with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld"]
 			dependencies: ["45261F997F50C569"]
 			id: "079353FC0E2FB2CC"
