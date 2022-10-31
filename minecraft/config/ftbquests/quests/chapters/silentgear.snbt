@@ -43,6 +43,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4EF58E229631A120"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -2.5d
@@ -95,6 +109,20 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "77A7062E92F511A5"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
@@ -164,6 +192,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "575ED2402F1DD557"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -1.0d
@@ -180,6 +222,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6BFD8101D62F1961"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+				count: 8
 			}]
 		}
 		{
@@ -264,6 +312,36 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "63A33E7A063E11E0"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "255477BEDA8D6787"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -324,6 +402,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0499CD03060DCB0F"
+				type: "item"
+				item: {
+					id: "botania:brew_flask"
+					Count: 1b
+					tag: {
+						brewKey: "botania:healing"
+					}
+				}
+			}]
 		}
 		{
 			x: 9.5d
@@ -412,6 +501,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6FB6B8020E3BFD0B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 7.5d
@@ -479,6 +582,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1F3FCB8936DC7A6E"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 5.0d
@@ -494,6 +611,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5C87F49C1EE2B9CD"
+				type: "item"
+				item: "botania:flare_chakram"
+				count: 6
 			}]
 		}
 		{
@@ -511,6 +634,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "65DD7FEBEA668A43"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 3.0d
@@ -524,6 +661,20 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D7257476D649C7B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "more_gems:quickening"
+						}]
 					}
 				}
 			}]
@@ -594,6 +745,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "155E75665E3AC7C8"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 4.0d
@@ -607,6 +772,20 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0449F4DCCEC09BC0"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
 					}
 				}
 			}]
@@ -625,6 +804,18 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "339DA56C74F0C982"
+				type: "item"
+				item: {
+					id: "minecraft:tipped_arrow"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				count: 32
 			}]
 		}
 		{

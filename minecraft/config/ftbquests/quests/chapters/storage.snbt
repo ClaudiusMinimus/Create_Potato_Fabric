@@ -18,6 +18,11 @@
 				type: "item"
 				item: "toms_storage:ts.inventory_connector"
 			}]
+			rewards: [{
+				id: "68B3C1BF20695C6D"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
 			x: -4.5d
@@ -28,6 +33,12 @@
 				id: "6BA6EDCFF1885FA3"
 				type: "item"
 				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "3076953C94590D9D"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -40,6 +51,11 @@
 				type: "item"
 				item: "toms_storage:ts.crafting_terminal"
 			}]
+			rewards: [{
+				id: "720C35DAC4285CB8"
+				type: "item"
+				item: "more_gems:emerald_juju"
+			}]
 		}
 		{
 			x: -1.5d
@@ -50,6 +66,11 @@
 				id: "31722823CCD5E4EF"
 				type: "item"
 				item: "toms_storage:ts.wireless_terminal"
+			}]
+			rewards: [{
+				id: "35A979BDE5331C02"
+				type: "item"
+				item: "ironchests:iron_emerald_upgrade"
 			}]
 		}
 		{
@@ -62,6 +83,36 @@
 				type: "item"
 				item: "toms_storage:ts.adv_wireless_terminal"
 			}]
+			rewards: [{
+				id: "242D1CE2241A10F1"
+				type: "item"
+				item: {
+					id: "more_gems:moissanite_bow"
+					Count: 1b
+					tag: {
+						RepairCost: 15
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:power"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:infinity"
+							}
+							{
+								lvl: 5s
+								id: "more_gems:lightning"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:punch"
+							}
+						]
+					}
+				}
+			}]
 		}
 		{
 			x: -4.5d
@@ -72,6 +123,12 @@
 				id: "41D8672F7F12A79C"
 				type: "item"
 				item: "toms_storage:ts.inventory_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "03290C09332099FD"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_framed"
 			}]
 		}
 		{
@@ -84,6 +141,11 @@
 				type: "item"
 				item: "toms_storage:ts.inventory_cable_connector"
 			}]
+			rewards: [{
+				id: "0FECAAA678334F39"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector_framed"
+			}]
 		}
 		{
 			x: -4.5d
@@ -95,11 +157,17 @@
 				type: "item"
 				item: "toms_storage:ts.inventory_hopper_basic"
 			}]
+			rewards: [{
+				id: "390217D64E54BDA9"
+				type: "item"
+				item: "botania:floating_hopperhock"
+			}]
 		}
 		{
 			x: -4.5d
 			y: -1.0d
 			shape: "diamond"
+			subtitle: "Start Here"
 			size: 1.5d
 			id: "4240DD5A5E1AB2A4"
 			tasks: [{
@@ -123,17 +191,28 @@
 				type: "item"
 				item: "minecraft:shulker_box"
 			}]
+			rewards: [{
+				id: "3718418C46097BB6"
+				type: "item"
+				item: "create:steam_engine"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
 			shape: "diamond"
+			subtitle: "Start Here"
 			size: 1.5d
 			id: "013D046FD42B2B58"
 			tasks: [{
 				id: "6CB85E70B360F69A"
 				type: "item"
 				item: "minecraft:barrel"
+			}]
+			rewards: [{
+				id: "7D0BA943658332A3"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -162,6 +241,11 @@
 				type: "item"
 				item: "dankstorage:dank_2"
 			}]
+			rewards: [{
+				id: "6C9274C8AC4D4E87"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
 		}
 		{
 			x: 4.5d
@@ -172,6 +256,11 @@
 				id: "1E456D3CFCFD9DD0"
 				type: "item"
 				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "6AF9F89D47DE112B"
+				type: "item"
+				item: "lootcrates:common_crate_key"
 			}]
 		}
 		{
@@ -184,6 +273,11 @@
 				type: "item"
 				item: "dankstorage:dank_4"
 			}]
+			rewards: [{
+				id: "25C562215F7FAB71"
+				type: "item"
+				item: "kibe:cursed_seeds"
+			}]
 		}
 		{
 			x: 7.5d
@@ -194,6 +288,11 @@
 				id: "5248C2BC17C97B8C"
 				type: "item"
 				item: "dankstorage:dank_5"
+			}]
+			rewards: [{
+				id: "52D57BDD23337C89"
+				type: "item"
+				item: "kibe:entangled_chest"
 			}]
 		}
 		{
@@ -206,6 +305,11 @@
 				type: "item"
 				item: "dankstorage:dank_7"
 			}]
+			rewards: [{
+				id: "2B5DE3358F1671A5"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
 		}
 		{
 			x: 9.0d
@@ -217,6 +321,11 @@
 				type: "item"
 				item: "dankstorage:dank_6"
 			}]
+			rewards: [{
+				id: "433B7E3D2E1C021E"
+				type: "item"
+				item: "waystones:waystone"
+			}]
 		}
 		{
 			x: -3.0d
@@ -227,6 +336,12 @@
 				id: "3538981175DAE29E"
 				type: "item"
 				item: "minecraft:ender_chest"
+			}]
+			rewards: [{
+				id: "6F99616FA6CC2204"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 4
 			}]
 		}
 		{
@@ -372,6 +487,66 @@
 				type: "item"
 				item: "ironchests:wood_obsidian_upgrade"
 			}]
+		}
+		{
+			title: "Any Extended Drawer"
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "73B92F34429037AB"
+			tasks: [{
+				id: "11E4665B54872303"
+				type: "item"
+				title: "Any #extended_drawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "extended_drawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A1CB46FEED16BE7"
+					type: "item"
+					item: "extended_drawers:t2_upgrade"
+				}
+				{
+					id: "52E918F09B635780"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "extended_drawers:guide"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["73B92F34429037AB"]
+			id: "10EBCA357759C0B0"
+			tasks: [{
+				id: "65A02727D471D12F"
+				type: "item"
+				item: "extended_drawers:controller"
+			}]
+			rewards: [
+				{
+					id: "05C523245C1CE182"
+					type: "item"
+					item: "extended_drawers:single_drawer"
+				}
+				{
+					id: "68EEE81E7A30720A"
+					type: "item"
+					item: "extended_drawers:lock"
+				}
+			]
 		}
 	]
 }
