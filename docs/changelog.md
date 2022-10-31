@@ -1,6 +1,6 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
-## Create on a Potato PC Fabric Edition 1.18.2-1.5.1
+## Create on a Potato PC Fabric Edition 1.18.2-1.5.2
 Oct. 31, 2022
 - Mods Added: 
 - Mods Updated: 
@@ -15,6 +15,7 @@ Oct. 31, 2022
     - `minecraft/defaultconfigs/ftbchunks/ftbchunks-world.snbt`
     - Fixed some conflicting keybinds
     - Added/updated quests
+    - Moved bhmenu-client.properties so one is created if not present
 
 ## Create on a Potato PC Fabric Edition 1.18.2-1.4.0
 Oct. 27, 2022

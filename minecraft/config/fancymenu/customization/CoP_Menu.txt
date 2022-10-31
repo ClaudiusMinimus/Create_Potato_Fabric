@@ -435,6 +435,6 @@ customization {
   y = -11
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC - FABRIC 1.18.2-1.5.1
+  value = Create on a Potato PC - FABRIC 1.18.2-1.5.2
 }
 
