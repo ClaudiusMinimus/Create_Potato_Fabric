@@ -10,8 +10,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.8418367346938567d
-			y: -0.9795918367346985d
+			x: -7.341836734693857d
+			y: 2.5204081632653015d
 			shape: "diamond"
 			subtitle: "Start Here"
 			description: [
@@ -401,8 +401,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.0d
+			x: -9.5d
+			y: 2.5d
 			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."]
 			dependencies: ["000000000000062C"]
 			id: "00000000000007BD"
@@ -419,8 +419,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.0d
+			x: -11.0d
+			y: 1.5d
 			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007BF"
@@ -437,8 +437,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.5d
+			x: -9.5d
+			y: 1.0d
 			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in REI to learn more how to do this."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C1"
@@ -461,8 +461,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: 0.0d
+			x: -11.0d
+			y: 3.5d
 			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C5"
@@ -479,8 +479,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -1.0d
+			x: -13.0d
+			y: 2.5d
 			description: ["The Spout is for refilling your fluid items. Can also be automated."]
 			dependencies: ["00000000000007CD"]
 			id: "00000000000007C7"
@@ -532,8 +532,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.0d
+			x: -11.5d
+			y: 2.5d
 			description: ["The Fluid Tank can be a single block or a multi-block structure."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007CD"
@@ -587,8 +587,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.5d
+			x: -9.5d
+			y: 4.0d
 			dependencies: ["00000000000007BD"]
 			id: "0000000000000855"
 			tasks: [{
@@ -1124,8 +1124,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -1.0d
 			description: [
 				"You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, different storage blocks, and mob spawners. You read this correctly, I said MOB SPAWNERS! The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it."
 				""
@@ -1299,7 +1299,7 @@
 		}
 		{
 			x: -1.0d
-			y: 1.5d
+			y: 0.5d
 			dependencies: ["000000000000078F"]
 			id: "7C2067E003760D5E"
 			tasks: [{
