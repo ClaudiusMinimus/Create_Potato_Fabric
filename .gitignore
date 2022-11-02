@@ -56,7 +56,7 @@ mmc-pack.json
 modlist.html
 
 # Stop ignoring these folders
-!minecraft/config/bhmenu
+# !minecraft/config/bhmenu
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/EssentialGUI/
 !minecraft/config/fancymenu/
