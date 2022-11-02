@@ -1,11 +1,21 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
-## Create on a Potato PC Fabric Edition 1.18.2-1.5.2
-Oct. 31, 2022
+## Create on a Potato PC Fabric Edition 1.18.2-1.6.0
+Nov. 2, 2022
 - Mods Added: 
 - Mods Updated: 
+  - farmers-delight-fabric-1.18.2-1.2.2.jar
+  - ftb-chunks-fabric-1802.3.7-build.172.jar
+  - ftb-library-fabric-1802.3.7-build.154.jar
+  - ftb-quests-fabric-1802.3.8-build.106.jar
+  - ftb-quests-fabric-1802.3.9-build.128.jar
+  - ftb-teams-fabric-1802.2.7-build.71.jar
+  - kubejs-fabric-1802.5.5-build.554.jar
+  - mcpitanlibarch-1.1.0-1.18-fabric.jar
   - ModularLootCrates-3.4.1-1.18.1.jar
-  - RoughlyEnoughItems-8.3.561.jar
+  - rhino-fabric-1802.2.1-build.248.jar
+  - RoughlyEnoughItems-8.3.563.jar
+  - UncraftingTable-fabric-1.1.1.jar
 - Mods Removed: 
   - cloth-config-6.4.90-forge.jar (somehow forge version go installed)
 - Other Changes: 
