@@ -1,5 +1,13 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
+## Create on a Potato PC Fabric Edition 1.18.2-1.7.0
+Nov. 02, 2022
+- Mods Added: 
+- Mods Updated:
+  - RoughlyEnoughItems-8.3.561 (Rolled back to [Fabric 1.18.2] v8.3.561 due to an issue with recipes not showing up.)
+- Mods Removed: 
+- Other Changes: 
+
 ## Create on a Potato PC Fabric Edition 1.18.2-1.6.0
 Nov. 2, 2022
 - Mods Added: 
