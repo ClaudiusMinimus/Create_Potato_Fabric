@@ -1,7 +1,7 @@
 {
 	id: "000000000000038C"
 	group: ""
-	order_index: 5
+	order_index: 4
 	filename: "cooking"
 	title: "Cooking"
 	icon: "farmersdelight:stove"
@@ -225,7 +225,7 @@
 			rewards: [{
 				id: "00000000000007D5"
 				type: "item"
-				item: "more_gems:alexandrite_juju"
+				item: "minecraft:beacon"
 			}]
 		}
 		{
@@ -259,20 +259,10 @@
 			rewards: [{
 				id: "6D55B8D13C193DEC"
 				type: "item"
-				item: "farmersdelight:organic_compost"
+				item: "farmersdelight:rich_soil"
 				count: 8
 			}]
 		}
-		{
-			x: 1.5d
-			y: -0.5d
-			dependencies: ["5B61D515D5194CF5"]
-			id: "499EA9D08A05EE6D"
-			tasks: [{
-				id: "4C534E9B3F494309"
-				type: "item"
-				item: "farmersdelight:rich_soil"
-			}]
-		}
 	]
+	quest_links: [ ]
 }

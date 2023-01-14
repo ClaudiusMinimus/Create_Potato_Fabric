@@ -12,12 +12,12 @@
 			title: "Think like a Hobbit"
 			x: 0.0d
 			y: 0.0d
+			shape: "diamond"
 			description: [
 				"Hobbit or not, you may need to act like one to survive. Dig, dig, dig!"
 				""
 				"Dig out 10 dirt blocks to create a safe hidey hole for the night and we'll toss ya a door for free."
 			]
-			dependencies: ["03F55170BAB80CD2"]
 			dependency_requirement: "one_completed"
 			id: "0000000000000005"
 			tasks: [{
@@ -39,22 +39,6 @@
 					id: "0000000000000008"
 					type: "item"
 					item: "minecraft:oak_door"
-				}
-				{
-					id: "00000000000001C5"
-					type: "item"
-					item: "waystones:waystone"
-				}
-				{
-					id: "00000000000001C6"
-					type: "item"
-					item: {
-						id: "waystones:warp_stone"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
 				}
 				{
 					id: "142670505761EC13"
@@ -119,7 +103,7 @@
 				{
 					id: "0000000000000048"
 					type: "item"
-					item: "resourceful_tools:jerky"
+					item: "create:crafting_blueprint"
 					count: 8
 				}
 			]
@@ -193,24 +177,11 @@
 				item: "minecraft:raw_iron"
 				count: 12L
 			}]
-			rewards: [
-				{
-					id: "0000000000000020"
-					type: "item"
-					item: "minecraft:blast_furnace"
-				}
-				{
-					id: "0000000000000502"
-					type: "item"
-					item: {
-						id: "resourceful_tools:crack_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "0000000000000020"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
 		}
 		{
 			title: "Over an Open Fire"
@@ -304,7 +275,11 @@
 			rewards: [{
 				id: "00000000000000E3"
 				type: "item"
-				item: "simple_backpack:backpack"
+				item: {
+					id: "backpackmod:leather_backpack"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -321,13 +296,7 @@
 			rewards: [{
 				id: "00000000000000E2"
 				type: "item"
-				item: {
-					id: "botania:brew_flask"
-					Count: 1b
-					tag: {
-						brewKey: "botania:resistance"
-					}
-				}
+				item: "farmersdelight:roast_chicken_block"
 				count: 4
 			}]
 		}
@@ -396,8 +365,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 2.0d
 			description: [
 				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:"
 				"\"/home set [name]\" will set a waypoint for your home. Example: \"/home set home\""
@@ -410,11 +379,7 @@
 				"\"/spawn set\" Sets the world spawn point - use for singleplayer. Admins will set this for a server."
 				"\"/spawn tp\" teleports you to spawn"
 			]
-			dependencies: [
-				"5AF39FF6AB1C6098"
-				"6F94CFF9E4013396"
-				"7C5E77C3A3B69BAC"
-			]
+			dependencies: ["3E046FB9DDB11119"]
 			id: "03F55170BAB80CD2"
 			tasks: [{
 				id: "2C6A2CB6DF046D00"
@@ -453,7 +418,7 @@
 		}
 		{
 			x: -3.0d
-			y: 1.5d
+			y: 1.0d
 			description: [
 				"REI is an item and recipe viewing mod for Minecraft."
 				"Basic Controls:"
@@ -520,7 +485,7 @@
 		}
 		{
 			x: -3.0d
-			y: 0.0d
+			y: -0.5d
 			description: [
 				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 				""
@@ -543,9 +508,9 @@
 		}
 		{
 			x: 0.0d
-			y: 7.5d
+			y: 6.0d
 			min_required_dependencies: 1
-			dependencies: ["5474F1DD630CE7C6"]
+			dependencies: ["00000000000005C8"]
 			dependency_requirement: "all_started"
 			id: "00000000000000B6"
 			tasks: [{
@@ -562,7 +527,7 @@
 		}
 		{
 			x: 0.0d
-			y: 9.0d
+			y: 7.5d
 			dependencies: ["00000000000000B6"]
 			id: "00000000000000B8"
 			tasks: [{
@@ -583,24 +548,6 @@
 					item: "minecraft:villager_spawn_egg"
 				}
 			]
-		}
-		{
-			x: 0.0d
-			y: 6.0d
-			description: ["Craft a Copper Hook Knife to get string from sheep or wool"]
-			dependencies: ["00000000000005C8"]
-			id: "5474F1DD630CE7C6"
-			tasks: [{
-				id: "265BA2A4F7D6FC47"
-				type: "item"
-				item: {
-					id: "resourceful_tools:hook_knife_copper"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 		}
 		{
 			x: 1.5d
@@ -742,4 +689,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
