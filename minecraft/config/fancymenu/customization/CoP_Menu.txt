@@ -292,7 +292,7 @@ customization {
 
 customization {
   orientation = original
-  splash_color = #ffff00
+  splash_color = #F0CA78
   hidden = true
   x = 0
   width = 60
@@ -300,6 +300,7 @@ customization {
   action = deep_customization_element:title_screen_splash
   actionid = 79ed07c2-8515-4aad-9324-51fcc4c006cf1665491429861
   y = 0
+  splash_file_path = config/fancymenu/assets/texts/splashes.txt
   height = 30
 }
 
@@ -429,12 +430,28 @@ customization {
 customization {
   orientation = bottom-right
   shadow = false
-  x = -222
+  x = -3
   actionid = 98415145-b3f2-4453-b502-3975b82fa4481640365180519
   action = addtext
-  y = -11
+  y = -12
   scale = 1.0
-  alignment = left
-  value = Create on a Potato PC - FABRIC 1.18.2-1.7.0
+  alignment = right
+  value = Create on a Potato PC - FABRIC 1.19.2-1.2.0
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #F0CA78
+  shadow = true
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 60
+  actionid = 4b820fad-f4ae-4e9b-88a0-316c085b7bdb1673648038825
+  action = addsplash
+  y = 55
+  text = Fabric Edition!
 }
 
