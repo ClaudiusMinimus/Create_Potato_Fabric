@@ -1,6 +1,6 @@
 # Change log for Create on a Potato PC - Fabric Edition
 
-## Create on a Potato PC Fabric Edition 1.19.2-1.2.0
+## Create on a Potato PC Fabric Edition 1.19.2-1.2.1
 Jan. 13, 2023
 - Mods Added:
   - backpackmod-1.19-4.0.5.jar
@@ -9,6 +9,7 @@ Jan. 13, 2023
   - configured-fabric-2.0.0-1.19.2.jar
   - Controlling-fabric-1.19.2-10.0+7.jar
   - createdeco-1.2.12-1.19.2.jar
+  - easiervillagertrading-1.19.1-fabric0.58.5-1.5.4.jar
   - ftbbackups2-fabric-1.19.2-1.0.17.jar
   - lootr-1.19-0.4.25.64.jar
   - mcw-doors-1.0.7fabric-mc1.19.2.jar
@@ -64,7 +65,7 @@ Jan. 13, 2023
   - keywizard-fabric-v2.0.1-1.19.2.jar
   - kibe-1.9.10-BETA+1.19.jar
   - konkrete_fabric_1.6.0_MC_1.19.1-1.19.2.jar
-  - kubejs-fabric-1902.6.0-build.138.jar
+  - kubejs-fabric-1902.6.0-build.140.jar
   - lambdynamiclights-2.2.0+1.19.2.jar
   - leaves-us-in-peace-1.0.12+MC1.19-1.19.2.jar
   - light-overlay-7.0.0.jar

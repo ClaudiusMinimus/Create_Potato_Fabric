@@ -60,7 +60,7 @@ mmc-pack.json
 modlist.html
 
 # Stop ignoring these folders
-# !minecraft/config/bhmenu
+!minecraft/config/bhmenu
 !minecraft/config/drippyloadingscreen/
 # !minecraft/config/EssentialGUI/
 !minecraft/config/fancymenu/
@@ -71,7 +71,5 @@ modlist.html
 # Stop ignoring these files
 !minecraft/config/bcc.json
 # !minecraft/config/craftpresence.properties
-# !minecraft/config/xaerominimap.txt
-# !minecraft/config/xaerominimap_entities.json
 !server/config/bcc.json
 !server/config/carrier.json
