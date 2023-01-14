@@ -1,6 +1,0 @@
-{
-    "name": "Create on a Potato",
-    "landing_text": "$(playername), Welcome to Create on a Potato: Fabric Edition! This book should help you get started playing this pack. I will port this pack to 1.19.2 as key mods are made available. Have Fun!",
-    "version": 4,
-    "book_texture": "patchouli:textures/gui/book_purple.png"
-}
