@@ -3,5 +3,5 @@
   "slownessLevel": 2,
   "hungerExhaustion": 0.05,
   "type": "BLACKLIST",
-  "list": ["dankstorage:dock","create"]
+  "list": ["create"]
 }
