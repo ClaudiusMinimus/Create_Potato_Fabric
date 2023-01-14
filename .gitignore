@@ -2,14 +2,16 @@
 minecraft/.bobby/*
 minecraft/.fabric/*
 minecraft/.mixin.out/*
-minecraft/backup/*
+minecraft/backup*/*
 minecraft/config/*
 minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
+minecraft/data/*
 minecraft/ESM/*
 minecraft/fancymenu_data/*
 minecraft/fancymenu_setups/*
+minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/moddata/*
@@ -17,6 +19,8 @@ minecraft/mods/*
 minecraft/mods*/*
 minecraft/ModTranslations/*
 minecraft/resourcepacks/*
+# file is a symbolic link
+minecraft/resourcepacks
 minecraft/saves/*
 minecraft/schematics/*
 minecraft/screenshots/*
@@ -58,17 +62,15 @@ modlist.html
 # Stop ignoring these folders
 # !minecraft/config/bhmenu
 !minecraft/config/drippyloadingscreen/
-!minecraft/config/EssentialGUI/
+# !minecraft/config/EssentialGUI/
 !minecraft/config/fancymenu/
 !minecraft/config/ftbquests/
-!minecraft/config/more_gems/
-!minecraft/config/simple_backpack/
 !minecraft/config/yosbr/
 # !server/config/ftbquests
 
 # Stop ignoring these files
 !minecraft/config/bcc.json
-#!minecraft/config/craftpresence.properties
+# !minecraft/config/craftpresence.properties
 # !minecraft/config/xaerominimap.txt
 # !minecraft/config/xaerominimap_entities.json
 !server/config/bcc.json

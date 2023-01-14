@@ -16,8 +16,8 @@ customization {
 
 customization {
   action = editprogressbar
-  y = -13
-  barcolor = e0ad54
+  y = -28
+  barcolor = #F0CA78
 }
 
 customization {
@@ -40,5 +40,33 @@ customization {
   actionid = ca4cfd61-bc8e-481f-a26d-0eb96ff082b11640372713278
   y = 73
   height = 7
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #F0CA78
+  shadow = true
+  rotation = -20.0
+  x = 82
+  actionid = eda1d9ad-891f-46ba-a5e5-57aaabf8ec221673647820849
+  action = addsplash
+  y = 52
+  scale = 1.0
+  refresh = false
+  text = Fabric Edition!
+  bouncing = true
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -3
+  textcolor = #ffffff
+  action = addtext
+  actionid = 190289b3-a8dc-434b-94d0-e9e562ecd1b61673647919461
+  y = -3
+  scale = 1.0
+  alignment = left
+  value = Create on a Potato PC - FABRIC 1.19.2-1.2.0
 }
 

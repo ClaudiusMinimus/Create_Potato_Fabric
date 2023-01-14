@@ -1,0 +1,11 @@
+{
+    "name": "Emerald Tools Info",
+    "icon": "emerald_tools:emerald_hammer",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Emerald Tools does not have a wiki, but their $(l:https://www.curseforge.com/minecraft/mc-mods/easy-emerald-tools)Curseforge page$(/l) has a lot of useful information.$(br2)If you still need help, then you can join their $(l:https://discord.gg/j7bYbkW)discord$(/l)."
+        }
+    ]
+}

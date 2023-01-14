@@ -1,7 +1,7 @@
 {
 	id: "000000000000003C"
 	group: ""
-	order_index: 7
+	order_index: 6
 	filename: "hunter"
 	title: "Hunter"
 	icon: {
@@ -51,10 +51,24 @@
 				id: "0000000000000567"
 				type: "item"
 				item: {
-					id: "botania:elementium_axe"
+					id: "emerald_tools:diamond_bow"
 					Count: 1b
 					tag: {
 						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:flame"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:power"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:infinity"
+							}
+						]
 					}
 				}
 			}]
@@ -114,7 +128,23 @@
 			rewards: [{
 				id: "0000000000000054"
 				type: "item"
-				item: "more_gems:tourmaline_juju"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:sweeping"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+						]
+					}
+				}
 			}]
 		}
 		{
@@ -189,11 +219,29 @@
 				entity: "minecraft:spider"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "0000000000000060"
-				type: "item"
-				item: "botania:rainbow_rod"
-			}]
+			rewards: [
+				{
+					id: "0000000000000060"
+					type: "item"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "71D12780C3B6EEDF"
+					type: "item"
+					item: "minecraft:wither_skeleton_spawn_egg"
+				}
+				{
+					id: "60ECAFB9CC9CD631"
+					type: "item"
+					item: {
+						id: "spawnermod:spawner_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -231,13 +279,20 @@
 				id: "000000000000023C"
 				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
+					id: "emerald_tools:amethyst_chestplate"
 					Count: 1b
 					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "more_gems:freeze_protection"
-						}]
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+						]
 					}
 				}
 			}]
@@ -258,7 +313,8 @@
 			rewards: [{
 				id: "000000000000023D"
 				type: "item"
-				item: "botania:odin_ring"
+				item: "kibe:wither_proof_glass"
+				count: 32
 			}]
 		}
 		{
@@ -293,11 +349,29 @@
 				entity: "minecraft:wither_skeleton"
 				value: 100L
 			}]
-			rewards: [{
-				id: "0000000000000220"
-				type: "item"
-				item: "minecraft:ghast_spawn_egg"
-			}]
+			rewards: [
+				{
+					id: "0000000000000220"
+					type: "item"
+					item: "minecraft:ghast_spawn_egg"
+				}
+				{
+					id: "178BBEC9CB15CD74"
+					type: "item"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "2B6ED68E572C150E"
+					type: "item"
+					item: {
+						id: "spawnermod:spawner_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -315,8 +389,7 @@
 			rewards: [{
 				id: "0000000000000239"
 				type: "item"
-				item: "minecraft:nether_star"
-				count: 5
+				item: "create:creative_crate"
 			}]
 		}
 		{
@@ -396,7 +469,11 @@
 			rewards: [{
 				id: "0000000000000221"
 				type: "item"
-				item: "createaddition:creative_energy"
+				item: {
+					id: "kibe:magma_ring"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -411,11 +488,19 @@
 				entity: "minecraft:blaze"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "000000000000023B"
-				type: "item"
-				item: "minecraft:beacon"
-			}]
+			rewards: [
+				{
+					id: "000000000000023B"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "70AE8BE97F8D07BE"
+					type: "item"
+					item: "create:creative_blaze_cake"
+					count: 9
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -452,7 +537,11 @@
 			rewards: [{
 				id: "000000000000046C"
 				type: "item"
-				item: "more_gems:corundum_juju"
+				item: {
+					id: "kibe:diamond_lasso"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -491,13 +580,7 @@
 			rewards: [{
 				id: "000000000000046A"
 				type: "item"
-				item: {
-					id: "botania:thunder_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "ironchests:obsidian_chest"
 			}]
 		}
 		{
@@ -538,7 +621,7 @@
 				id: "0000000000000466"
 				type: "item"
 				item: "minecraft:nether_star"
-				count: 5
+				count: 25
 			}]
 		}
 		{
@@ -557,8 +640,8 @@
 				{
 					id: "0000000000000467"
 					type: "item"
-					item: "minecraft:diamond_block"
-					count: 10
+					item: "create:creative_motor"
+					count: 2
 				}
 				{
 					id: "5B6AF4DB05A31F61"
@@ -585,8 +668,9 @@
 			rewards: [{
 				id: "0000000000000583"
 				type: "item"
-				item: "more_gems:carbonado_juju"
+				item: "create:creative_fluid_tank"
 			}]
 		}
 	]
+	quest_links: [ ]
 }

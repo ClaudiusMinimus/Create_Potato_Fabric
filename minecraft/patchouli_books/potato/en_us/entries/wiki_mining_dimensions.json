@@ -1,0 +1,21 @@
+{
+    "name": "Mining Dimensions",
+    "icon": "mining_dims:mining_teleporter",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Mining Portals",
+            "text": "$(li)Five (5) Dimensions: Mining, Climbing, Caving, Hunting, and Nethering$(li)Mining Dim: A dimensions with two biomes (desert and plains) and is always noon; same ores and structures as Overworld.$(li)Climbing Dim: A dimension with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld"
+        },{
+            "type": "text",
+            "text": "$(li)Hunting Dim: A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; seriously, the mobs are tough and you will likely die!$(li)Caving Dim: A safe haven dimension of Mushroom biome caves; same ores as Overworld;  only spawns bats and the occasional spider spawner in mineshafts$(li)Nethering Dim: A vanilla-only Nether dimension, helpful for finding vanilla resources that are difficult to find when the "
+        },{
+            "type": "text",
+            "text": "regular Nether is filled with modded biomes.$(li)Free-standing portals as in previous versions$(li)Teleporters have a \"return to bed\" feature when you sneak + right-click with the new Returning enchantment$(li)Additional deepslate diamond ore in Overworld, Mining, Climbing, and Caving.  Can be adjusted in config.  Default value is very modest.$(li)Additional ancient debris ore in Nether and Nethering Dims."
+        },{
+            "type": "text",
+            "text": "Can be adjusted in config.  Default value is very modest.$(li)New feature to bypass ocean check, and place a stone block under player if in water, bring a boat!$(li)Sleeping in a bed in the dimensions will lead to explosions!$(br2)This chapter is taken from the $(l:https://www.curseforge.com/minecraft/mc-mods/mining-dimensions-fabric)Mining Dimension$(/l) Curseforge page."
+        }
+    ]
+}

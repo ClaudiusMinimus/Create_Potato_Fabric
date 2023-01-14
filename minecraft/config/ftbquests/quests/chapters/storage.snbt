@@ -1,7 +1,7 @@
 {
 	id: "0000000000000105"
 	group: ""
-	order_index: 6
+	order_index: 5
 	filename: "storage"
 	title: "Storage"
 	icon: "minecraft:barrel"
@@ -22,6 +22,7 @@
 				id: "68B3C1BF20695C6D"
 				type: "item"
 				item: "minecraft:ender_pearl"
+				count: 4
 			}]
 		}
 		{
@@ -54,7 +55,7 @@
 			rewards: [{
 				id: "720C35DAC4285CB8"
 				type: "item"
-				item: "more_gems:emerald_juju"
+				item: "minecraft:amethyst_cluster"
 			}]
 		}
 		{
@@ -84,34 +85,10 @@
 				item: "toms_storage:ts.adv_wireless_terminal"
 			}]
 			rewards: [{
-				id: "242D1CE2241A10F1"
+				id: "2AC0271A8C7DF0AA"
 				type: "item"
-				item: {
-					id: "more_gems:moissanite_bow"
-					Count: 1b
-					tag: {
-						RepairCost: 15
-						Damage: 0
-						Enchantments: [
-							{
-								lvl: 5s
-								id: "minecraft:power"
-							}
-							{
-								lvl: 1s
-								id: "minecraft:infinity"
-							}
-							{
-								lvl: 5s
-								id: "more_gems:lightning"
-							}
-							{
-								lvl: 2s
-								id: "minecraft:punch"
-							}
-						]
-					}
-				}
+				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -160,7 +137,7 @@
 			rewards: [{
 				id: "390217D64E54BDA9"
 				type: "item"
-				item: "botania:floating_hopperhock"
+				item: "minecraft:ender_pearl"
 			}]
 		}
 		{
@@ -178,7 +155,7 @@
 			rewards: [{
 				id: "73CB4734EB4623E7"
 				type: "item"
-				item: "resourceful_tools:trash_can"
+				item: "kibe:pocket_trash_can"
 			}]
 		}
 		{
@@ -195,136 +172,6 @@
 				id: "3718418C46097BB6"
 				type: "item"
 				item: "create:steam_engine"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -1.0d
-			shape: "diamond"
-			subtitle: "Start Here"
-			size: 1.5d
-			id: "013D046FD42B2B58"
-			tasks: [{
-				id: "6CB85E70B360F69A"
-				type: "item"
-				item: "minecraft:barrel"
-			}]
-			rewards: [{
-				id: "7D0BA943658332A3"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.0d
-			dependencies: ["013D046FD42B2B58"]
-			id: "081C796F1246C254"
-			tasks: [{
-				id: "466DD893F3B64288"
-				type: "item"
-				item: "dankstorage:dank_1"
-			}]
-			rewards: [{
-				id: "288AF9B5D8CCADB7"
-				type: "item"
-				item: "dankstorage:dock"
-			}]
-		}
-		{
-			x: 3.0d
-			y: -1.0d
-			dependencies: ["081C796F1246C254"]
-			id: "2DC87CBCB90F4A33"
-			tasks: [{
-				id: "19C1211109AB2883"
-				type: "item"
-				item: "dankstorage:dank_2"
-			}]
-			rewards: [{
-				id: "6C9274C8AC4D4E87"
-				type: "item"
-				item: "minecraft:comparator"
-			}]
-		}
-		{
-			x: 4.5d
-			y: -1.0d
-			dependencies: ["2DC87CBCB90F4A33"]
-			id: "6108DE62E1E561A9"
-			tasks: [{
-				id: "1E456D3CFCFD9DD0"
-				type: "item"
-				item: "dankstorage:dank_3"
-			}]
-			rewards: [{
-				id: "6AF9F89D47DE112B"
-				type: "item"
-				item: "lootcrates:common_crate_key"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -1.0d
-			dependencies: ["6108DE62E1E561A9"]
-			id: "14C1B8171EF0CDC8"
-			tasks: [{
-				id: "55C7DADDBC65E8B2"
-				type: "item"
-				item: "dankstorage:dank_4"
-			}]
-			rewards: [{
-				id: "25C562215F7FAB71"
-				type: "item"
-				item: "kibe:cursed_seeds"
-			}]
-		}
-		{
-			x: 7.5d
-			y: -1.0d
-			dependencies: ["14C1B8171EF0CDC8"]
-			id: "257FD3507B85F5A8"
-			tasks: [{
-				id: "5248C2BC17C97B8C"
-				type: "item"
-				item: "dankstorage:dank_5"
-			}]
-			rewards: [{
-				id: "52D57BDD23337C89"
-				type: "item"
-				item: "kibe:entangled_chest"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -1.0d
-			dependencies: ["3F7BFE0CF6A7B85A"]
-			id: "270197FA7679E098"
-			tasks: [{
-				id: "51CDB5E9A5A1EADB"
-				type: "item"
-				item: "dankstorage:dank_7"
-			}]
-			rewards: [{
-				id: "2B5DE3358F1671A5"
-				type: "item"
-				item: "create:creative_fluid_tank"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -1.0d
-			dependencies: ["257FD3507B85F5A8"]
-			id: "3F7BFE0CF6A7B85A"
-			tasks: [{
-				id: "07B5D88E56AFD604"
-				type: "item"
-				item: "dankstorage:dank_6"
-			}]
-			rewards: [{
-				id: "433B7E3D2E1C021E"
-				type: "item"
-				item: "waystones:waystone"
 			}]
 		}
 		{
@@ -352,28 +199,16 @@
 			tasks: [{
 				id: "038909BA613B6AA4"
 				type: "item"
-				item: "simple_backpack:backpack"
+				item: {
+					id: "backpackmod:copper_backpack"
+					Count: 1b
+					tag: { }
+				}
 			}]
 			rewards: [{
 				id: "1590E0725D52BE43"
 				type: "item"
-				item: "simple_backpack:simple_bundle"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.5d
-			dependencies: ["4240DD5A5E1AB2A4"]
-			id: "534B9F2826B2834E"
-			tasks: [{
-				id: "6F1723D2F52C1684"
-				type: "item"
-				item: "more_gems:gembag"
-			}]
-			rewards: [{
-				id: "02738FBE63F22A4C"
-				type: "item"
-				item: "emerald_tools:ruby_block"
+				item: "minecraft:bundle"
 			}]
 		}
 		{
@@ -384,16 +219,17 @@
 			tasks: [{
 				id: "7DF00808C44B376B"
 				type: "item"
-				item: "simple_backpack:ender_pack"
+				item: "backpackmod:ender_backpack"
 			}]
 			rewards: [{
 				id: "623811BE0699B694"
 				type: "item"
-				item: "minecraft:ender_chest"
+				item: "create:precision_mechanism"
+				count: 4
 			}]
 		}
 		{
-			x: -6.0d
+			x: -4.5d
 			y: 0.5d
 			dependencies: ["4240DD5A5E1AB2A4"]
 			id: "5E32C7DB1204161B"
@@ -409,7 +245,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -6.0d
 			y: 0.5d
 			dependencies: ["5E32C7DB1204161B"]
 			id: "17022F136D4BC206"
@@ -425,7 +261,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -7.5d
 			y: 0.5d
 			dependencies: ["17022F136D4BC206"]
 			id: "482F08EDAAB05126"
@@ -441,7 +277,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -9.0d
 			y: 0.5d
 			dependencies: ["482F08EDAAB05126"]
 			id: "5FBE8AC8C0CDE18E"
@@ -457,7 +293,7 @@
 			}]
 		}
 		{
-			x: -12.0d
+			x: -10.5d
 			y: 0.5d
 			dependencies: ["5FBE8AC8C0CDE18E"]
 			id: "4742BA5CFD887DA8"
@@ -473,7 +309,7 @@
 			}]
 		}
 		{
-			x: -13.5d
+			x: -12.0d
 			y: 0.5d
 			dependencies: ["4742BA5CFD887DA8"]
 			id: "3195AE5B3D4C08F9"
@@ -488,65 +324,6 @@
 				item: "ironchests:wood_obsidian_upgrade"
 			}]
 		}
-		{
-			title: "Any Extended Drawer"
-			x: -4.5d
-			y: 0.5d
-			dependencies: ["4240DD5A5E1AB2A4"]
-			id: "73B92F34429037AB"
-			tasks: [{
-				id: "11E4665B54872303"
-				type: "item"
-				title: "Any #extended_drawers:drawers"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "extended_drawers:drawers"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "7A1CB46FEED16BE7"
-					type: "item"
-					item: "extended_drawers:t2_upgrade"
-				}
-				{
-					id: "52E918F09B635780"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "extended_drawers:guide"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: 2.0d
-			dependencies: ["73B92F34429037AB"]
-			id: "10EBCA357759C0B0"
-			tasks: [{
-				id: "65A02727D471D12F"
-				type: "item"
-				item: "extended_drawers:controller"
-			}]
-			rewards: [
-				{
-					id: "05C523245C1CE182"
-					type: "item"
-					item: "extended_drawers:single_drawer"
-				}
-				{
-					id: "68EEE81E7A30720A"
-					type: "item"
-					item: "extended_drawers:lock"
-				}
-			]
-		}
 	]
+	quest_links: [ ]
 }

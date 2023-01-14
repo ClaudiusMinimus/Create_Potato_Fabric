@@ -53,8 +53,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.0d
 			description: ["You will need LOTS of these little guys!"]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000791"
@@ -72,9 +72,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
-			dependencies: ["000000000000078F"]
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["0000000000000795"]
 			id: "0000000000000793"
 			tasks: [{
 				id: "0000000000000794"
@@ -89,9 +89,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
-			dependencies: ["0000000000000793"]
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["000000000000078F"]
 			id: "0000000000000795"
 			tasks: [{
 				id: "0000000000000796"
@@ -153,8 +153,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
 			dependencies: ["0000000000000795"]
 			id: "000000000000079B"
 			tasks: [{
@@ -278,25 +278,32 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 4.0d
+			y: 1.0d
 			description: [
 				"A water wheel is great for early game Rotational Force."
 				""
 				"Your reward is a Stressometer--this useful tool shows you the kinetic stress at that point in the system. Each kinetic block adds stress to the system. Therefore, if your system stops or slows down you may need additional rotational force."
 			]
-			dependencies: ["0000000000000795"]
+			dependencies: ["0000000000000793"]
 			id: "00000000000007AB"
 			tasks: [{
 				id: "00000000000007AC"
 				type: "item"
 				item: "create:water_wheel"
 			}]
-			rewards: [{
-				id: "00000000000007AD"
-				type: "item"
-				item: "create:stressometer"
-			}]
+			rewards: [
+				{
+					id: "00000000000007AD"
+					type: "item"
+					item: "create:stressometer"
+				}
+				{
+					id: "66EEF5970429C080"
+					type: "item"
+					item: "create:water_wheel"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -335,10 +342,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: 1.5d
+			y: -2.0d
 			description: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
-			dependencies: ["00000000000008C9"]
+			dependencies: ["000000000000078F"]
 			id: "00000000000007B4"
 			tasks: [{
 				id: "00000000000007B5"
@@ -360,8 +367,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 4.0d
+			x: -5.5d
+			y: 4.5d
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: "
 				""
@@ -620,16 +627,16 @@
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
-							id: "more_gems:razor_sharpness"
+							lvl: 2s
+							id: "minecraft:frost_walker"
 						}]
 					}
 				}
 			}]
 		}
 		{
-			x: 4.5d
-			y: 6.0d
+			x: 3.0d
+			y: -3.0d
 			dependencies: ["00000000000007B4"]
 			id: "00000000000008CB"
 			tasks: [{
@@ -675,7 +682,7 @@
 				id: "00000000000008D2"
 				type: "item"
 				item: "create:mechanical_crafter"
-				count: 9L
+				count: 18L
 			}]
 			rewards: [{
 				id: "00000000000008D5"
@@ -686,7 +693,7 @@
 		}
 		{
 			x: -4.5d
-			y: 7.5d
+			y: 8.0d
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008D6"
 			tasks: [
@@ -763,9 +770,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 15.5d
-			dependencies: ["00000000000008D1"]
+			x: 0.0d
+			y: 14.0d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008DF"
 			tasks: [{
 				id: "00000000000008E0"
@@ -779,9 +786,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 17.0d
-			dependencies: ["00000000000008D1"]
+			x: -3.0d
+			y: 14.0d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008E1"
 			tasks: [{
 				id: "00000000000008E2"
@@ -796,9 +803,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 14.0d
-			dependencies: ["00000000000008D1"]
+			x: -1.5d
+			y: 15.0d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008E3"
 			tasks: [{
 				id: "00000000000008E4"
@@ -880,8 +887,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 7.0d
+			x: -3.0d
+			y: 7.5d
 			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."]
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008F2"
@@ -907,8 +914,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 12.5d
+			x: 7.0d
+			y: 14.0d
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
 			id: "1BBEEF19114688A9"
@@ -939,8 +946,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 7.0d
+			x: -6.0d
+			y: 7.5d
 			description: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
 			dependencies: [
 				"00000000000007A1"
@@ -1014,86 +1021,22 @@
 				id: "1D6189B8DE5FD067"
 				type: "item"
 				item: {
-					id: "quark:ancient_tome"
+					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3s
-							id: "minecraft:unbreaking"
+							id: "minecraft:sweeping"
 						}]
 					}
 				}
 			}]
 		}
 		{
-			x: -7.0d
-			y: 13.0d
-			description: ["While this may be used in a few recipes, a conversion is required to unlock its full potential."]
-			dependencies: ["70CA0859E8976BEB"]
-			id: "688A222392CF08AA"
-			tasks: [{
-				id: "184B5389E877F3BB"
-				type: "item"
-				item: {
-					id: "create:chromatic_compound"
-					Count: 1b
-					tag: { }
-				}
-				count: 32L
-			}]
-			rewards: [{
-				id: "0504A23E2B1FE5CD"
-				type: "item"
-				item: "botania:elementium_ingot"
-				count: 4
-			}]
-		}
-		{
-			title: "Into the Void"
-			x: -7.0d
-			y: 14.5d
-			description: ["If you jump into the void you will die, but what will happen to some Chromatic Compound thrown in?"]
-			dependencies: ["688A222392CF08AA"]
-			id: "120FDBE3D5A86446"
-			tasks: [{
-				id: "1D0B39C475B265E7"
-				type: "item"
-				item: "create:shadow_steel"
-				count: 16L
-			}]
-			rewards: [{
-				id: "09281869C8ED265A"
-				type: "item"
-				item: "minecraft:dragon_breath"
-				count: 4
-			}]
-		}
-		{
-			title: "Go Towards the Light"
-			x: -8.5d
-			y: 13.0d
-			description: ["What would happen if you threw a Chromatic Compound into a beam of light or on a bunch of glowstone?"]
-			dependencies: ["688A222392CF08AA"]
-			id: "2EC000DBE2E8AEB0"
-			tasks: [{
-				id: "60E082759F2C004C"
-				type: "item"
-				item: "create:refined_radiance"
-				count: 16L
-			}]
-			rewards: [{
-				id: "735F65B1B6C2C586"
-				type: "item"
-				title: "Dank Storage upgrade from 3 to 4"
-				item: "dankstorage:3_to_4"
-				count: 2
-			}]
-		}
-		{
-			x: -10.0d
-			y: 13.0d
+			x: 5.0d
+			y: 16.0d
 			description: ["This can help with your OCD wanting blocks to be symmetrical!"]
-			dependencies: ["2EC000DBE2E8AEB0"]
+			dependencies: ["00000000000008D1"]
 			id: "5C6483EDD2B8F901"
 			tasks: [{
 				id: "5F01387E7F118B48"
@@ -1119,8 +1062,11 @@
 			rewards: [{
 				id: "1A13C2C27AB241A5"
 				type: "item"
-				item: "farmersdelight:apple_pie"
-				count: 4
+				item: {
+					id: "kibe:cursed_lasso"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -1161,42 +1107,6 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
-			description: ["A nice decoration."]
-			dependencies: ["000000000000078F"]
-			id: "06F565FE68808482"
-			tasks: [{
-				id: "516D1C4E03E66285"
-				type: "item"
-				item: "create:wooden_bracket"
-			}]
-			rewards: [{
-				id: "19D9C2AD0622E1C2"
-				type: "item"
-				item: "create:framed_glass_pane"
-				count: 8
-			}]
-		}
-		{
-			x: 0.0d
-			y: -3.0d
-			description: ["A nice sturdy decoration."]
-			dependencies: ["000000000000078F"]
-			id: "404D832597883CA2"
-			tasks: [{
-				id: "606A1496DA32A3F0"
-				type: "item"
-				item: "create:metal_bracket"
-			}]
-			rewards: [{
-				id: "3C78DC7687EF31A8"
-				type: "item"
-				item: "minecraft:gold_ingot"
-				count: 4
-			}]
-		}
-		{
 			x: 1.5d
 			y: 3.0d
 			dependencies: ["0000000000000799"]
@@ -1214,7 +1124,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 3.0d
 			y: 14.0d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
@@ -1226,7 +1136,7 @@
 			rewards: [{
 				id: "462C861464D608FA"
 				type: "item"
-				item: "lootcrates:epic_crate_key"
+				item: "ironchests:wood_iron_upgrade"
 			}]
 		}
 		{
@@ -1243,17 +1153,8 @@
 			rewards: [{
 				id: "3EFDD0FFE080BE6C"
 				type: "item"
-				item: {
-					id: "create:red_sand_paper"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							lvl: 1s
-							id: "forbidden_arcanus:indestructible"
-						}]
-					}
-				}
+				item: "create:polished_rose_quartz"
+				count: 4
 			}]
 		}
 		{
@@ -1299,7 +1200,7 @@
 		}
 		{
 			x: -1.0d
-			y: 0.5d
+			y: 1.0d
 			dependencies: ["000000000000078F"]
 			id: "7C2067E003760D5E"
 			tasks: [{
@@ -1333,7 +1234,7 @@
 		}
 		{
 			x: 6.5d
-			y: 11.5d
+			y: 12.5d
 			dependencies: ["00000000000008D1"]
 			id: "51CA42B8F1642023"
 			tasks: [{
@@ -1349,9 +1250,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
-			dependencies: ["0000000000000795"]
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["000000000000078F"]
 			id: "3B92E29596B40569"
 			tasks: [{
 				id: "48889F50EF1F80BD"
@@ -1372,7 +1273,7 @@
 		}
 		{
 			x: 5.0d
-			y: 11.0d
+			y: 12.0d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
 			tasks: [{
@@ -1394,8 +1295,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.0d
+			x: -1.0d
+			y: -4.0d
 			dependencies: ["3B92E29596B40569"]
 			id: "5285176B7732ABCA"
 			tasks: [{
@@ -1416,8 +1317,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 1.0d
+			y: -4.0d
 			dependencies: ["3B92E29596B40569"]
 			id: "78F656DFFE233ACB"
 			tasks: [{
@@ -1455,7 +1356,7 @@
 		}
 		{
 			x: -6.5d
-			y: 5.0d
+			y: 6.0d
 			description: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
 			dependencies: ["00000000000007A1"]
 			id: "28D15A9B43C825CE"
@@ -1471,8 +1372,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
+			x: -3.5d
+			y: 4.5d
 			description: ["The Gearshift allows you to change rotational direction using a redstone signal."]
 			dependencies: ["00000000000007A1"]
 			id: "2D2DF1DE0851BE05"
@@ -1484,7 +1385,7 @@
 			rewards: [{
 				id: "1D1D56ED06D69395"
 				type: "item"
-				item: "botania:thorn_chakram"
+				item: "emerald_tools:amethyst_arrow"
 				count: 4
 			}]
 		}
@@ -1515,121 +1416,6 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 15.5d
-			dependencies: ["00000000000008D1"]
-			id: "0351BF8137FCC36B"
-			tasks: [{
-				id: "65BF807ED7A583DF"
-				type: "item"
-				item: "createaddition:electric_motor"
-			}]
-			rewards: [{
-				id: "2A2885D00F0AE8A4"
-				type: "item"
-				item: {
-					id: "botania:terra_pick"
-					Count: 1b
-					tag: {
-						mana: 9999999
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 6.5d
-			y: 16.5d
-			description: ["It has been found it may take more than one alternator to power your Refined Storage system."]
-			dependencies: ["00000000000008D1"]
-			id: "1C613BBF8E00B7D2"
-			tasks: [{
-				id: "1F259EB580A21F83"
-				type: "item"
-				item: "createaddition:alternator"
-			}]
-			rewards: [{
-				id: "31AD34AA299469BD"
-				type: "item"
-				item: {
-					id: "kibe:cursed_lasso"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: 16.5d
-			dependencies: ["00000000000008D1"]
-			id: "5699077B8E2106C1"
-			tasks: [{
-				id: "429F8B16CFC4A40D"
-				type: "item"
-				item: "createaddition:tesla_coil"
-			}]
-			rewards: [{
-				id: "5A1FFEE033F80F06"
-				type: "item"
-				item: "more_gems:tourmaline_juju"
-			}]
-		}
-		{
-			x: -8.0d
-			y: 7.0d
-			dependencies: ["57E407DCFD4531C4"]
-			id: "3C1F30450727C97C"
-			tasks: [{
-				id: "6E45778F56FA4D76"
-				type: "item"
-				item: "createaddition:redstone_relay"
-			}]
-			rewards: [{
-				id: "3F9685B716E4CCAA"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -6.5d
-			y: 6.0d
-			dependencies: ["00000000000007A1"]
-			id: "57E407DCFD4531C4"
-			tasks: [{
-				id: "4CB08F300BBBA825"
-				type: "item"
-				item: "createaddition:rolling_mill"
-			}]
-			rewards: [{
-				id: "2C97849B9AA4D580"
-				type: "item"
-				item: "more_gems:sharpening_gem"
-				count: 4
-			}]
-		}
-		{
-			x: -8.0d
-			y: 5.0d
-			dependencies: ["57E407DCFD4531C4"]
-			id: "2D874710EB4C2EF3"
-			tasks: [{
-				id: "7261A8E8C7B03CA9"
-				type: "item"
-				item: "createaddition:gold_spool"
-			}]
-			rewards: [{
-				id: "2FD3012A81BFF26C"
-				type: "item"
-				item: {
-					id: "resourceful_tools:glass_placer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			x: -3.0d
 			y: 12.0d
 			dependencies: ["00000000000007A5"]
@@ -1646,4 +1432,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
