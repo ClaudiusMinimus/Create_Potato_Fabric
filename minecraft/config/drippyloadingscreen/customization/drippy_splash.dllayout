@@ -70,3 +70,14 @@ customization {
   value = Create on a Potato PC - FABRIC 1.19.2-1.2.1
 }
 
+customization {
+  path = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  orientation = bottom-left
+  x = 0
+  width = 100
+  action = addtexture
+  actionid = 8c17ca48-5cea-418c-8315-7575620e130b1673799215710
+  y = 0
+  height = 100
+}
+
