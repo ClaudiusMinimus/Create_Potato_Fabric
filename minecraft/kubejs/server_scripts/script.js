@@ -40,6 +40,8 @@ PlayerEvents.loggedIn( event => {
 	  event.player.give('minecraft:stone_sword')
 	  event.player.give('minecraft:stone_pickaxe')
 	  event.player.give('minecraft:stone_axe')
+	  event.player.give('minecraft:stone_shovel')
+	  event.player.give('minecraft:oak_chest_boat')
 	  event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:potato"}'))
 	  event.player.give('30x minecraft:apple')
 	}
