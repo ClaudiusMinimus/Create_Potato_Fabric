@@ -1,0 +1,84 @@
+{
+	id: "678EE5E60B8339D5"
+	group: ""
+	order_index: 7
+	filename: "common"
+	title: "Shop"
+	icon: "createdeco:gold_coin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "White Bed"
+			icon: "minecraft:white_bed"
+			x: -14.0d
+			y: -5.5d
+			subtitle: "2 Gold Coins"
+			description: ["To Purchase: Click on Gold Coin then press \"Submit\""]
+			can_repeat: true
+			id: "4F8C1AF91555B5AC"
+			tasks: [{
+				id: "0FA98DC3FD2A1F9F"
+				type: "item"
+				icon: "createdeco:gold_coin"
+				disable_toast: true
+				item: "createdeco:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20D1BD7787E2AB2D"
+				type: "item"
+				item: "minecraft:white_bed"
+			}]
+		}
+		{
+			title: "White Sleeping Bag"
+			icon: "kibe:white_sleeping_bag"
+			x: -15.5d
+			y: -5.5d
+			subtitle: "1 Gold Coin"
+			description: ["To Purchase: Click on Gold Coin then press \"Submit\""]
+			can_repeat: true
+			id: "3BAB9D8DFA63BC54"
+			tasks: [{
+				id: "19938CDCC248D122"
+				type: "item"
+				icon: "createdeco:gold_coin"
+				disable_toast: true
+				item: "createdeco:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23465B57F23CF4D3"
+				type: "item"
+				team_reward: false
+				auto: "no_toast"
+				item: "kibe:white_sleeping_bag"
+			}]
+		}
+		{
+			title: "Potato Shop Help"
+			x: -15.5d
+			y: -9.0d
+			shape: "diamond"
+			description: [
+				"This shop uses FTB Quests' default item quest format."
+				" - Click on any item shown."
+				" - Think of the \"Tasks\" label as the \"Price.\""
+				" - The \"Rewards\" label as the \"Item\" and \"Quantity\" for sale"
+				""
+				"To purchase an item, click on the icon shown under \"Tasks\" and press \"Submit.\" You must have the correct payment in your inventory."
+				"The item is automatically added to your inventory, and payment is removed - if not, click on the item shown under \"Rewards.\""
+			]
+			size: 2.5d
+			id: "3AEC6CA40CC59AD2"
+			tasks: [{
+				id: "3AB3D874250BAD0F"
+				type: "checkmark"
+				title: "Shop Help"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
