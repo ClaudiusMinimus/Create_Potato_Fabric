@@ -174,19 +174,16 @@
 					id: "emerald_tools:copper_paxel"
 					Count: 1b
 					tag: {
+						RepairCost: 1
 						Damage: 0
 						Enchantments: [
 							{
-								lvl: 4s
+								lvl: 2s
 								id: "minecraft:efficiency"
 							}
 							{
-								lvl: 3s
+								lvl: 2s
 								id: "minecraft:unbreaking"
-							}
-							{
-								lvl: 1s
-								id: "minecraft:silk_touch"
 							}
 						]
 					}
