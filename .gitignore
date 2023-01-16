@@ -53,6 +53,10 @@ minecraft/rhino.local.properties
 minecraft/servers.dat
 minecraft/servers.dat_old
 minecraft/usercache.json
+minecraft/config/NoChatReports/NCR-Common.json
+minecraft/config/NoChatReports/NCR-Encryption.json
+minecraft/config/NoChatReports/NCR-ServerWhitelist.json
+minecraft/config/NoChatReports/README.md
 *.code-workspace
 .packignore
 instance.cfg
@@ -65,6 +69,7 @@ modlist.html
 # !minecraft/config/EssentialGUI/
 !minecraft/config/fancymenu/
 !minecraft/config/ftbquests/
+!minecraft/config/NoChatReports
 !minecraft/config/yosbr/
 # !server/config/ftbquests
 
